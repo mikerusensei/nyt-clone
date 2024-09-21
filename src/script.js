@@ -5,10 +5,10 @@
 // const opinionfile = "json/opinion.json";
 
 // API Test
-const latestfile = "https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=bMoWWsjXxQi8PP8DJFeehGHuIXd1dRcu";
-const popularfile = "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=bMoWWsjXxQi8PP8DJFeehGHuIXd1dRcu";
-const foodfile = "https://api.nytimes.com/svc/topstories/v2/food.json?api-key=bMoWWsjXxQi8PP8DJFeehGHuIXd1dRcu";
-const opinionfile = "https://api.nytimes.com/svc/topstories/v2/opinion.json?api-key=bMoWWsjXxQi8PP8DJFeehGHuIXd1dRcu";
+// const latestfile = "https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=bMoWWsjXxQi8PP8DJFeehGHuIXd1dRcu";
+// const popularfile = "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=bMoWWsjXxQi8PP8DJFeehGHuIXd1dRcu";
+// const foodfile = "https://api.nytimes.com/svc/topstories/v2/food.json?api-key=bMoWWsjXxQi8PP8DJFeehGHuIXd1dRcu";
+// const opinionfile = "https://api.nytimes.com/svc/topstories/v2/opinion.json?api-key=bMoWWsjXxQi8PP8DJFeehGHuIXd1dRcu";
 
 // Containers
 const popStories = document.getElementById('popular-article');
