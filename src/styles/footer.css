@@ -1,0 +1,34 @@
+footer{
+    width: 100vw;
+    height: auto;
+    margin-top: 20px;
+    background-color: var(--black);
+}
+
+.developer{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--white);
+}
+
+.developer p{
+    font-family: "Cabin", sans-serif;
+    color: var(--white);
+}
+
+.api{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.api img{
+    width: 65px;
+}
+
+.api p{
+    font-family: "Cabin", sans-serif;
+    color: var(--white);
+    font-size: 0.75rem;
+}
