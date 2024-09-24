@@ -1,4 +1,8 @@
 @media screen and (min-width: 426px){
+    .responsive{
+        width: 100vw;
+    }
+    
     #latest-article article{
         width: 21rem;
     }
@@ -17,4 +21,3 @@
         width: 15.2rem;
     }
 }
-    

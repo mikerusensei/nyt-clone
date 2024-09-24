@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/articles.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/tablet.css" />
+    <link rel="stylesheet" href="styles/laptop-s.css" />
 
     <link rel="icon" href="https://res.cloudinary.com/dzmhkee5i/image/upload/v1726580447/nyt-clone/kx0t4hnobwkybr15xh5j.png" type="image/icon_type" />
 
@@ -23,59 +24,70 @@
     <title>New York Times | Clone</title>
 </head>
 <body>
-    <header class="header">
-        <div class="title-logo">
-            <p>The New York Times</p>
-        </div>
-    </header>
-    <main>
-        <section id="main-content">
-            <div class="popular-content">
-                <header class="header-container">
-                    <p>Popular Articles</p>
-                </header>
-                <main id="popular-article">
-                    <!-- Script Here -->
-                </main>
+    <div class="responsive">
+        <header class="header">
+            <div class="title-logo">
+                <p>The New York Times</p>
             </div>
+            <nav>
+                <ul>
+                    <li><a>World</a></li>
+                    <li><a>Business</a></li>
+                    <li><a>Health</a></li>
+                    <li><a>Sports</a></li>
+                    <li><a>Science</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="main-content">
+                <div class="popular-content">
+                    <header class="header-container">
+                        <p>Popular Articles</p>
+                    </header>
+                    <main id="popular-article">
+                        <!-- Script Here -->
+                    </main>
+                </div>
 
-            <div class="latest-content">
-                <header class="header-container">
-                    <p>Latest News</p>
-                </header>
-                <main id="latest-article">
-                    <!-- Script Here -->
-                </main>
-            </div>
-        </section>
-        <section id="side-content">
-            <div id="opinion-content">
-                <main id="opinion-article">
+                <div class="latest-content">
+                    <header class="header-container">
+                        <p>Latest News</p>
+                    </header>
+                    <main id="latest-article">
+                        <!-- Script Here -->
+                    </main>
+                </div>
+            </section>
+            <section id="side-content">
+                <div id="opinion-content">
+                    <main id="opinion-article">
 
-                </main>
-            </div>
-            <div id="food-content">
-                <header class="header-container">
-                    <p>Food</p>
-                </header>
-                <main id="food-article">
-                    <!-- Script Here -->
-                </main>
-            </div>
-        </section>
+                    </main>
+                </div>
+                <div id="food-content">
+                    <header class="header-container">
+                        <p>Food</p>
+                    </header>
+                    <main id="food-article">
+                        <!-- Script Here -->
+                    </main>
+                </div>
+            </section>
 
-    </main>
-    <footer>
-        <div class="developer">
-            <p>Developed with ❤ by mikerusensei</p>
-        </div>
-        <div class="api">
-            <p>Used for Educational Purposes Only</p>
-            <p>Data provided by The New York Times</p>
-            <a href="https://developer.nytimes.com">
-                <img class="logo" src="https://developer.nytimes.com/files/poweredby_nytimes_65a.png?v=1583354208350" />
-            </a>
-        </div> 
-    </footer>
+        </main>
+        <footer>
+            <div class="developer">
+                <p>Developed with ❤️ by mikerusensei</p>
+            </div>
+            <div class="api">
+                <p>Used for Educational Purposes Only</p>
+                <p>Data provided by The New York Times</p>
+                <a href="https://developer.nytimes.com">
+                    <img class="logo" src="https://developer.nytimes.com/files/poweredby_nytimes_65a.png?v=1583354208350" />
+                </a>
+            </div> 
+        </footer>
+    </div>
 </body>
 </html>
