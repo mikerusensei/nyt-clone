@@ -1,0 +1,1551 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2024 The New York Times Company. All Rights Reserved.",
+    "section": "Opinion",
+    "last_updated": "2024-08-13T10:27:52-04:00",
+    "num_results": 24,
+    "results": [
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "A Leading Law Scholar Fears We’re Lurching Toward Secession",
+        "abstract": "Can we fix the Constitution before it destroys us?",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/electoral-college-presidential-election.html",
+        "uri": "nyt://article/24caf4ff-1476-583c-ad2f-0767aaca1527",
+        "byline": "By Michelle Goldberg",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T21:09:49-04:00",
+        "created_date": "2024-09-23T20:05:06-04:00",
+        "published_date": "2024-09-23T20:05:06-04:00",
+        "material_type_facet": "",
+        "kicker": "Michelle Goldberg",
+        "des_facet": [
+          "Presidential Election of 2024",
+          "United States Politics and Government",
+          "Electoral College",
+          "Politics and Government"
+        ],
+        "org_facet": [],
+        "per_facet": [],
+        "geo_facet": [],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23goldberg1-bwmj/23goldberg1-bwmj-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 1366,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Samuel Corum/Getty Images"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23goldberg1-bwmj/23goldberg1-bwmj-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Samuel Corum/Getty Images"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23goldberg1-bwmj/23goldberg1-bwmj-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Samuel Corum/Getty Images"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "Trump Learned Nothing From the Obamacare Debate. Neither Did Vance.",
+        "abstract": "Their “concepts” would abandon people with pre-existing conditions.",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/trump-vance-obamacare-concepts.html",
+        "uri": "nyt://article/4129536e-50b1-5563-b94b-fc7d25eb654a",
+        "byline": "By Paul Krugman",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T16:35:05-04:00",
+        "created_date": "2024-09-23T16:35:05-04:00",
+        "published_date": "2024-09-23T16:35:05-04:00",
+        "material_type_facet": "",
+        "kicker": "Paul Krugman",
+        "des_facet": [
+          "Patient Protection and Affordable Care Act (2010)",
+          "Presidential Election of 2024",
+          "Health Insurance and Managed Care",
+          "Mandate for Leadership (Project 2025) (Book)"
+        ],
+        "org_facet": [
+          "Heritage Foundation"
+        ],
+        "per_facet": [
+          "Trump, Donald J",
+          "Vance, J D",
+          "Roberts, Kevin D (1974- )"
+        ],
+        "geo_facet": [],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23krugman-wbhq/23krugman-wbhq-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 1365,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Damon Winter/The New York Times"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23krugman-wbhq/23krugman-wbhq-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Damon Winter/The New York Times"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23krugman-wbhq/23krugman-wbhq-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Damon Winter/The New York Times"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "The U.S. Lost the Battery Race to China. Can It Make a Comeback?",
+        "abstract": "The cutting edge of American battery technology is rusty.",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/iron-air-battery-china.html",
+        "uri": "nyt://article/4dbe3302-29ed-5a3a-af15-31b41f3d76ac",
+        "byline": "By Peter Coy",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T15:00:03-04:00",
+        "created_date": "2024-09-23T15:00:03-04:00",
+        "published_date": "2024-09-23T15:00:03-04:00",
+        "material_type_facet": "",
+        "kicker": "Peter Coy",
+        "des_facet": [
+          "Batteries",
+          "Innovation",
+          "Science and Technology",
+          "Chemistry",
+          "Electric Light and Power",
+          "Global Warming"
+        ],
+        "org_facet": [
+          "Form Energy Inc"
+        ],
+        "per_facet": [],
+        "geo_facet": [
+          "China"
+        ],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/23coy-newsletter-image/23coy-newsletter-image-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 2048,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Sam Whitney/The New York Times"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/23coy-newsletter-image/23coy-newsletter-image-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Sam Whitney/The New York Times"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/23coy-newsletter-image/23coy-newsletter-image-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Sam Whitney/The New York Times"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "Using Haitian Immigrants as a Campaign Issue",
+        "abstract": "Responses to a guest essay by Gov. Mike DeWine of Ohio and a column by Jamelle Bouie. Also: Donald Trump and Jewish voters; pagers in war; airport trays.",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/haitian-immigrants-mike-dewine.html",
+        "uri": "nyt://article/a538c05d-4e6a-5a18-9fe7-cbf35f561c31",
+        "byline": "",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T11:36:28-04:00",
+        "created_date": "2024-09-23T11:36:28-04:00",
+        "published_date": "2024-09-23T11:36:28-04:00",
+        "material_type_facet": "",
+        "kicker": "letters",
+        "des_facet": [
+          "Haitian-Americans",
+          "Immigration and Emigration",
+          "Presidential Election of 2024",
+          "United States Politics and Government",
+          "Jews and Judaism",
+          "Iran-Israel Proxy Conflict",
+          "Bombs and Explosives",
+          "Terrorism",
+          "Airport Security"
+        ],
+        "org_facet": [
+          "Hezbollah"
+        ],
+        "per_facet": [
+          "DeWine, Mike",
+          "Trump, Donald J"
+        ],
+        "geo_facet": [
+          "Springfield (Ohio)",
+          "Israel"
+        ],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/21/opinion/20dewine-image/20dewine-image-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 2048,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Illustration by The New York Times"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/21/opinion/20dewine-image/20dewine-image-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Illustration by The New York Times"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/21/opinion/20dewine-image/20dewine-image-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Illustration by The New York Times"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "Another Trump Acolyte Finds Himself in Big Trouble",
+        "abstract": "The Mark Robinson story is yet another case of self-declared morality being at variance with actual behavior.",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/donald-trump-mark-robinson-maga.html",
+        "uri": "nyt://article/94e9e776-ca1a-56b6-b049-4b37528d5f2d",
+        "byline": "By Gail Collins and Bret Stephens",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T13:10:17-04:00",
+        "created_date": "2024-09-23T05:04:34-04:00",
+        "published_date": "2024-09-23T05:04:34-04:00",
+        "material_type_facet": "",
+        "kicker": "The Conversation",
+        "des_facet": [
+          "Presidential Election of 2024",
+          "Gun Control",
+          "United States Politics and Government"
+        ],
+        "org_facet": [
+          "Republican Party"
+        ],
+        "per_facet": [
+          "Robinson, Mark K (1968- )",
+          "Trump, Donald J"
+        ],
+        "geo_facet": [
+          "Springfield (Ohio)"
+        ],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/24/multimedia/23conversation1-wvfk/23conversation1-wvfk-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 1365,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Hiroko Masuike/The New York Times"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/24/multimedia/23conversation1-wvfk/23conversation1-wvfk-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Hiroko Masuike/The New York Times"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/24/multimedia/23conversation1-wvfk/23conversation1-wvfk-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Hiroko Masuike/The New York Times"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "Looking for a Superhero? Check the Public Library.",
+        "abstract": "You know something is wrong in America when beloved schoolteachers and librarians become the target of hate groups.",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/book-bans-librarians.html",
+        "uri": "nyt://article/27830026-9907-5618-93ae-a554722b9fe5",
+        "byline": "By Margaret Renkl",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T05:03:49-04:00",
+        "created_date": "2024-09-23T05:03:49-04:00",
+        "published_date": "2024-09-23T05:03:49-04:00",
+        "material_type_facet": "",
+        "kicker": "Guest Essay",
+        "des_facet": [
+          "Libraries and Librarians",
+          "Book Bans",
+          "Censorship",
+          "Books and Literature",
+          "Conservatism (US Politics)"
+        ],
+        "org_facet": [],
+        "per_facet": [],
+        "geo_facet": [],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/23renkl/23renkl-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 1536,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Photo Illustration by Danae Falliers"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/23renkl/23renkl-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Photo Illustration by Danae Falliers"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/23renkl/23renkl-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Photo Illustration by Danae Falliers"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "I’m a Doctor, and I’m Worried About What Comes Next for Our Health Care System",
+        "abstract": "The next fights over health care won’t be legislative brawls or executive actions — they will be a deluge of battles in the courts.",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/trump-obamacare-health-courts.html",
+        "uri": "nyt://article/e6fbbaf0-9f0f-544a-b59e-6bfa1b3ba7fb",
+        "byline": "By Danielle Ofri",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T10:02:30-04:00",
+        "created_date": "2024-09-23T05:02:57-04:00",
+        "published_date": "2024-09-23T05:02:57-04:00",
+        "material_type_facet": "",
+        "kicker": "Guest Essay",
+        "des_facet": [
+          "Presidential Election of 2024",
+          "Patient Protection and Affordable Care Act (2010)",
+          "Health Insurance and Managed Care",
+          "Chevron v Natural Resources Defense Council (Supreme Court Decision)",
+          "Courts and the Judiciary",
+          "United States Politics and Government",
+          "Voting and Voters",
+          "Regulation and Deregulation of Industry",
+          "Medicaid"
+        ],
+        "org_facet": [],
+        "per_facet": [
+          "Trump, Donald J",
+          "Vance, J D"
+        ],
+        "geo_facet": [],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/23ofri-image/23ofri-image-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 2047,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Matt Rota"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/23ofri-image/23ofri-image-threeByTwoSmallAt2X-v2.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Matt Rota"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/23ofri-image/23ofri-image-thumbLarge-v2.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Matt Rota"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "Why Is Trump Spreading Rumors About Haitian Immigrants? Rousseau Knows.",
+        "abstract": "The 18th-century philosopher knew that divisive politicians understand that those who struggle economically “look more below than above them.”",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/trump-springfield-haitian-immigrants.html",
+        "uri": "nyt://article/e8df8e1f-d6a9-5d32-9d54-2e9693d44618",
+        "byline": "By David Lay Williams",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T09:34:28-04:00",
+        "created_date": "2024-09-23T05:02:54-04:00",
+        "published_date": "2024-09-23T05:02:54-04:00",
+        "material_type_facet": "",
+        "kicker": "Guest Essay",
+        "des_facet": [
+          "Income Inequality",
+          "Poverty",
+          "Haitian-Americans",
+          "Threats and Threatening Messages",
+          "Immigration and Emigration",
+          "Presidential Election of 2024"
+        ],
+        "org_facet": [],
+        "per_facet": [],
+        "geo_facet": [
+          "Springfield (Ohio)"
+        ],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23williams-lwcm/23williams-lwcm-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 1366,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "A street in Springfield, Ohio. ",
+            "copyright": "Luke Sharrett/Getty Images"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23williams-lwcm/23williams-lwcm-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "A street in Springfield, Ohio. ",
+            "copyright": "Luke Sharrett/Getty Images"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23williams-lwcm/23williams-lwcm-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "A street in Springfield, Ohio. ",
+            "copyright": "Luke Sharrett/Getty Images"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "‘I Cannot Have That Man Be My Governor’: A Stark Race Roils a Crucial State",
+        "abstract": "Josh Stein is fighting to prevent a MAGA takeover of North Carolina.",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/mark-robinson-josh-stein-north-carolina.html",
+        "uri": "nyt://article/6e0a13b4-b4b0-5571-8e20-bcc930c4b82d",
+        "byline": "By Frank Bruni",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T12:39:41-04:00",
+        "created_date": "2024-09-23T05:02:25-04:00",
+        "published_date": "2024-09-23T05:02:25-04:00",
+        "material_type_facet": "",
+        "kicker": "Frank Bruni",
+        "des_facet": [
+          "United States Politics and Government",
+          "Elections, Governors",
+          "Right-Wing Extremism and Alt-Right",
+          "Conservatism (US Politics)",
+          "Governors (US)",
+          "Abortion",
+          "Attorneys General",
+          "Jews and Judaism"
+        ],
+        "org_facet": [
+          "Republican Party"
+        ],
+        "per_facet": [
+          "Cooper, Roy A",
+          "Edwards, John",
+          "King, Martin Luther Jr",
+          "Robinson, Mark K (1968- )",
+          "Stein, Josh (1966- )",
+          "Trump, Donald J"
+        ],
+        "geo_facet": [
+          "North Carolina"
+        ],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/23bruni/23bruni-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 1365,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "Josh Stein, the Democratic candidate for governor of North Carolina.",
+            "copyright": "Matt Ramey/Redux"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/23bruni/23bruni-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "Josh Stein, the Democratic candidate for governor of North Carolina.",
+            "copyright": "Matt Ramey/Redux"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/23bruni/23bruni-thumbLarge-v2.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "Josh Stein, the Democratic candidate for governor of North Carolina.",
+            "copyright": "Matt Ramey/Redux"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "JD Vance Is Wrong — Kamala Harris Isn’t Changing Her Accent",
+        "abstract": "She’s actually doing something quite presidential.",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/kamala-harris-code-switching.html",
+        "uri": "nyt://article/dcf82a50-3bd5-51a8-9e84-636e510d738d",
+        "byline": "By John McWhorter and Kristina Samulewski",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T13:52:25-04:00",
+        "created_date": "2024-09-23T05:02:09-04:00",
+        "published_date": "2024-09-23T05:02:09-04:00",
+        "material_type_facet": "",
+        "kicker": "",
+        "des_facet": [
+          "Presidential Election of 2024",
+          "English Language",
+          "Black People",
+          "Race and Ethnicity",
+          "audio-neutral-informative"
+        ],
+        "org_facet": [],
+        "per_facet": [
+          "Harris, Kamala D",
+          "Trump, Donald J",
+          "Vance, J D",
+          "Palin, Sarah",
+          "Obama, Barack",
+          "Bush, George W"
+        ],
+        "geo_facet": [],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/10/19/opinion/19opinions-mcwhorter/19opinions-mcwhorter-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 1800,
+            "width": 1800,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Illustration by The New York Times; photograph by Kevin Dietsch/Getty"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/10/19/opinion/19opinions-mcwhorter/19opinions-mcwhorter-threeByTwoSmallAt2X-v2.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Illustration by The New York Times; photograph by Kevin Dietsch/Getty"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/10/19/opinion/19opinions-mcwhorter/19opinions-mcwhorter-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Illustration by The New York Times; photograph by Kevin Dietsch/Getty"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "How Lying Became Disinformation",
+        "abstract": "Today “disinformation” and “misinformation” are often invoked by the left in the same way “fake news” is by the right.",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/disinformation-double-standard.html",
+        "uri": "nyt://article/3cf2efb2-a8be-5bb6-a1e5-a55c506289d4",
+        "byline": "By James Kirchick",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T09:03:44-04:00",
+        "created_date": "2024-09-23T05:01:47-04:00",
+        "published_date": "2024-09-23T05:01:47-04:00",
+        "material_type_facet": "",
+        "kicker": "Guest Essay",
+        "des_facet": [
+          "Rumors and Misinformation",
+          "Presidential Election of 2024",
+          "Charlottesville, Va, Violence (August, 2017)",
+          "Storming of the US Capitol (Jan, 2021)"
+        ],
+        "org_facet": [],
+        "per_facet": [
+          "Trump, Donald J",
+          "Harris, Kamala D",
+          "Biden, Joseph R Jr"
+        ],
+        "geo_facet": [],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/16/multimedia/16kirchick-vtzg/16kirchick-vtzg-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 1638,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Photo Illustration by Tam Stockton for The New York Times; source photographs by Damon Winter/The New York Times and Jacquelyn Martin/Associated Press"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/16/multimedia/16kirchick-vtzg/16kirchick-vtzg-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Photo Illustration by Tam Stockton for The New York Times; source photographs by Damon Winter/The New York Times and Jacquelyn Martin/Associated Press"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/16/multimedia/16kirchick-vtzg/16kirchick-vtzg-thumbLarge-v2.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Photo Illustration by Tam Stockton for The New York Times; source photographs by Damon Winter/The New York Times and Jacquelyn Martin/Associated Press"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "Putin Is Doing Something Almost Nobody Is Noticing",
+        "abstract": "It’s not just opposition figures who are caught in the Kremlin’s dragnet.",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/russia-putin-kremlin.html",
+        "uri": "nyt://article/fe61de69-42da-5c0d-b5aa-696287309aa4",
+        "byline": "By Lilia Yapparova",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T13:17:49-04:00",
+        "created_date": "2024-09-23T01:00:11-04:00",
+        "published_date": "2024-09-23T01:00:11-04:00",
+        "material_type_facet": "",
+        "kicker": "Guest Essay",
+        "des_facet": [
+          "Surveillance of Citizens by Government",
+          "Espionage and Intelligence Services",
+          "Kidnapping and Hostages",
+          "Deportation",
+          "Political Prisoners",
+          "Stalking (Crime)",
+          "Immigration and Emigration"
+        ],
+        "org_facet": [],
+        "per_facet": [
+          "Putin, Vladimir V"
+        ],
+        "geo_facet": [
+          "Russia"
+        ],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23yapparova-wlkf/23yapparova-wlkf-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 2048,
+            "width": 1639,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Pool photo by Alexander Kazakov"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23yapparova-wlkf/23yapparova-wlkf-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Pool photo by Alexander Kazakov"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23yapparova-wlkf/23yapparova-wlkf-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Pool photo by Alexander Kazakov"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "Charging the Parents of Mass Shooters",
+        "abstract": "Readers discuss a guest essay criticizing charges against Colin Gray. Also: Jan. 6; turmoil in Central America; learning from dogs; blindness and courage.",
+        "url": "https://www.nytimes.com/2024/09/22/opinion/mass-shooters-parents.html",
+        "uri": "nyt://article/bce3ca60-af67-52bd-a7ef-48827ff604db",
+        "byline": "",
+        "item_type": "Article",
+        "updated_date": "2024-09-22T22:31:51-04:00",
+        "created_date": "2024-09-22T11:00:22-04:00",
+        "published_date": "2024-09-22T11:00:22-04:00",
+        "material_type_facet": "",
+        "kicker": "letters",
+        "des_facet": [
+          "Gun Control",
+          "Mass Shootings",
+          "School Shootings and Armed Attacks",
+          "Apalachee High School, Ga, Shooting (2024)",
+          "United States Politics and Government",
+          "Firearms",
+          "Storming of the US Capitol (Jan, 2021)",
+          "Drug Abuse and Traffic",
+          "Poverty",
+          "Dogs",
+          "Blindness"
+        ],
+        "org_facet": [
+          "Republican Party"
+        ],
+        "per_facet": [
+          "Trump, Donald J"
+        ],
+        "geo_facet": [
+          "Central America",
+          "Costa Rica"
+        ],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/09/multimedia/06stack-glcm/06stack-glcm-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 2048,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Pool photo by Brynn Anderson"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/09/multimedia/06stack-glcm/06stack-glcm-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Pool photo by Brynn Anderson"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/09/multimedia/06stack-glcm/06stack-glcm-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Pool photo by Brynn Anderson"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "These Two Rape Cases Are a Lot Closer to Home Than We Like to Admit",
+        "abstract": "It’s easy to miss how much these cases have in common with everyday reality.",
+        "url": "https://www.nytimes.com/2024/09/22/opinion/sean-combs-dominique-pelicot.html",
+        "uri": "nyt://article/26880922-2cb3-59e0-ae84-ff46d7f58ada",
+        "byline": "By Elizabeth Spiers",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T16:07:40-04:00",
+        "created_date": "2024-09-22T06:00:35-04:00",
+        "published_date": "2024-09-22T06:00:35-04:00",
+        "material_type_facet": "",
+        "kicker": "Guest Essay",
+        "des_facet": [
+          "Sex Crimes",
+          "Domestic Violence",
+          "Men and Boys",
+          "Women and Girls",
+          "Human Trafficking",
+          "Racketeering and Racketeers"
+        ],
+        "org_facet": [],
+        "per_facet": [
+          "Combs, Sean",
+          "Pelicot, Dominique"
+        ],
+        "geo_facet": [],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/24/opinion/22spiers/22spiers-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 2048,
+            "width": 1583,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Photo Illustration by Kerr Cirilo; Source photograph by Christophe Simon/Agence France-Presse &mdash; Getty Images"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/24/opinion/22spiers/22spiers-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Photo Illustration by Kerr Cirilo; Source photograph by Christophe Simon/Agence France-Presse &mdash; Getty Images"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/24/opinion/22spiers/22spiers-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Photo Illustration by Kerr Cirilo; Source photograph by Christophe Simon/Agence France-Presse &mdash; Getty Images"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "Israel’s Pager Attacks Have Changed the World",
+        "abstract": "Our supply chains are vulnerable, which means that we are vulnerable.",
+        "url": "https://www.nytimes.com/2024/09/22/opinion/israel-pager-attacks-supply-chain.html",
+        "uri": "nyt://article/e04359f8-2c82-51c1-bd15-327fc1e5c37b",
+        "byline": "By Bruce Schneier",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T12:26:38-04:00",
+        "created_date": "2024-09-22T06:00:34-04:00",
+        "published_date": "2024-09-22T06:00:34-04:00",
+        "material_type_facet": "",
+        "kicker": "Guest Essay",
+        "des_facet": [
+          "Iran-Israel Proxy Conflict",
+          "Terrorism",
+          "Supply Chain"
+        ],
+        "org_facet": [
+          "Hezbollah"
+        ],
+        "per_facet": [],
+        "geo_facet": [
+          "Lebanon",
+          "Israel",
+          "China"
+        ],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/mzcf/mzcf-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 2048,
+            "width": 1639,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Mohammad Zaatari/Associated Press"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/mzcf/mzcf-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Mohammad Zaatari/Associated Press"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/mzcf/mzcf-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Mohammad Zaatari/Associated Press"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "The MAGA Movement Has Become a Problem for Trump",
+        "abstract": "He can no longer run as if he is a man alone.",
+        "url": "https://www.nytimes.com/2024/09/22/opinion/project-2025-trump-election.html",
+        "uri": "nyt://article/997e637c-b20f-5c67-83ae-653354e43c27",
+        "byline": "By Ezra Klein",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T13:29:44-04:00",
+        "created_date": "2024-09-22T06:00:24-04:00",
+        "published_date": "2024-09-22T06:00:24-04:00",
+        "material_type_facet": "",
+        "kicker": "Ezra Klein",
+        "des_facet": [
+          "Presidential Election of 2024",
+          "United States Politics and Government",
+          "Conservatism (US Politics)",
+          "Presidential Power (US)",
+          "Right-Wing Extremism and Alt-Right",
+          "Mandate for Leadership (Project 2025) (Book)",
+          "Government Employees"
+        ],
+        "org_facet": [
+          "Republican Party",
+          "Heritage Foundation"
+        ],
+        "per_facet": [
+          "Trump, Donald J",
+          "Vance, J D"
+        ],
+        "geo_facet": [],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22klein-jtzl/22klein-jtzl-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 1365,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Mark Peterson for The New York Times"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22klein-jtzl/22klein-jtzl-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Mark Peterson for The New York Times"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22klein-jtzl/22klein-jtzl-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Mark Peterson for The New York Times"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "MAGA Wants Transgression, and This Is What Comes With It",
+        "abstract": "Want more Mark Robinsons? Vote for Trump.",
+        "url": "https://www.nytimes.com/2024/09/22/opinion/mark-robinson-maga-trump.html",
+        "uri": "nyt://article/47b0133b-eec4-5b88-b85e-e90f8925fddb",
+        "byline": "By David French",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T11:25:36-04:00",
+        "created_date": "2024-09-22T06:00:23-04:00",
+        "published_date": "2024-09-22T06:00:23-04:00",
+        "material_type_facet": "",
+        "kicker": "David French",
+        "des_facet": [
+          "Presidential Election of 2024",
+          "Right-Wing Extremism and Alt-Right",
+          "Anti-Semitism",
+          "Discrimination",
+          "Race and Ethnicity",
+          "Black People",
+          "Elections, Governors",
+          "United States Politics and Government"
+        ],
+        "org_facet": [
+          "Republican Party"
+        ],
+        "per_facet": [
+          "Robinson, Mark K (1968- )",
+          "Trump, Donald J"
+        ],
+        "geo_facet": [
+          "North Carolina"
+        ],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22french-bqzj/22french-bqzj-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 2048,
+            "width": 1639,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Brendan Smialowski/Agence France-Presse — Getty Images"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22french-bqzj/22french-bqzj-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Brendan Smialowski/Agence France-Presse — Getty Images"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22french-bqzj/22french-bqzj-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Brendan Smialowski/Agence France-Presse — Getty Images"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "Want to End Poverty? Focus on One Thing.",
+        "abstract": "Electrifying the world could produce the largest development gains since the 1990s.",
+        "url": "https://www.nytimes.com/2024/09/22/opinion/clean-energy-electricity-poverty.html",
+        "uri": "nyt://article/92330159-766f-5471-a44e-5183bf9c0b20",
+        "byline": "By Rajiv Shah",
+        "item_type": "Article",
+        "updated_date": "2024-09-22T14:56:20-04:00",
+        "created_date": "2024-09-22T06:00:09-04:00",
+        "published_date": "2024-09-22T06:00:09-04:00",
+        "material_type_facet": "",
+        "kicker": "Guest Essay",
+        "des_facet": [
+          "Alternative and Renewable Energy",
+          "Global Warming",
+          "Electric Light and Power",
+          "Developing Countries",
+          "Foreign Aid",
+          "International Trade and World Market",
+          "Banking and Financial Institutions",
+          "Poverty",
+          "Greenhouse Gas Emissions",
+          "Medicine and Health",
+          "Foreign Investments"
+        ],
+        "org_facet": [
+          "African Development Bank",
+          "General Assembly (UN)",
+          "United Nations",
+          "World Bank"
+        ],
+        "per_facet": [],
+        "geo_facet": [
+          "Africa",
+          "United States"
+        ],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/opinion/22shah-image-still/22shah-image-still-superJumbo.png",
+            "format": "Super Jumbo",
+            "height": 2048,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Arif Qazi"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/opinion/22shah-image-still/22shah-image-still-threeByTwoSmallAt2X.png",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Arif Qazi"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/opinion/22shah-image-still/22shah-image-still-thumbLarge.png",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Arif Qazi"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "A Princeton Professor’s Advice to Young Conservatives",
+        "abstract": "Grievance is not a good foundation for an identity.",
+        "url": "https://www.nytimes.com/2024/09/22/opinion/college-conservatives-victims-identity.html",
+        "uri": "nyt://article/7b5692c2-2465-511c-944a-bfceda57a529",
+        "byline": "By Robert P. George",
+        "item_type": "Article",
+        "updated_date": "2024-09-22T06:00:07-04:00",
+        "created_date": "2024-09-22T06:00:07-04:00",
+        "published_date": "2024-09-22T06:00:07-04:00",
+        "material_type_facet": "",
+        "kicker": "Guest Essay",
+        "des_facet": [
+          "Colleges and Universities",
+          "Conservatism (US Politics)",
+          "Discrimination",
+          "Censorship",
+          "Freedom of Speech and Expression"
+        ],
+        "org_facet": [
+          "Princeton University"
+        ],
+        "per_facet": [],
+        "geo_facet": [],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/opinion/22george-image/22george-image-superJumbo.png",
+            "format": "Super Jumbo",
+            "height": 1195,
+            "width": 1195,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Arne Bellstorf"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/opinion/22george-image/22george-image-threeByTwoSmallAt2X.png",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Arne Bellstorf"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/opinion/22george-image/22george-image-thumbLarge.png",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Arne Bellstorf"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "Another Way of Looking at Jim Crow",
+        "abstract": "The purpose of segregation was as much to weaken labor as it was to institutionalize race hierarchy.",
+        "url": "https://www.nytimes.com/2024/09/21/opinion/jim-crow-trump-vance.html",
+        "uri": "nyt://article/fb6d2b67-778f-58a2-af2f-4e6f29374270",
+        "byline": "By Jamelle Bouie",
+        "item_type": "Article",
+        "updated_date": "2024-09-21T13:44:28-04:00",
+        "created_date": "2024-09-21T13:44:28-04:00",
+        "published_date": "2024-09-21T13:44:28-04:00",
+        "material_type_facet": "",
+        "kicker": "",
+        "des_facet": [
+          "Presidential Election of 2024",
+          "Civil Rights Movement (1954-68)",
+          "United States Politics and Government",
+          "Segregation and Desegregation",
+          "Discrimination"
+        ],
+        "org_facet": [],
+        "per_facet": [
+          "Trump, Donald J",
+          "Vance, J D"
+        ],
+        "geo_facet": [
+          "Springfield (Ohio)"
+        ],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/21/opinion/21bouie-newslette/21bouie-newslette-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 1361,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Bettmann Archive/Getty Images"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/21/opinion/21bouie-newslette/21bouie-newslette-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Bettmann Archive/Getty Images"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/21/opinion/21bouie-newslette/21bouie-newslette-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Bettmann Archive/Getty Images"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "We Are Running Out of Firefighters at a Perilous Time",
+        "abstract": "Congress should pass a spending bill to make a permanent pay increase a reality.",
+        "url": "https://www.nytimes.com/2024/09/21/opinion/california-wildfires-west-forest-service.html",
+        "uri": "nyt://article/69521796-08bb-5dd6-8cba-08ec7c8d123b",
+        "byline": "By Robert Langellier",
+        "item_type": "Article",
+        "updated_date": "2024-09-23T13:59:20-04:00",
+        "created_date": "2024-09-21T12:02:06-04:00",
+        "published_date": "2024-09-21T12:02:06-04:00",
+        "material_type_facet": "",
+        "kicker": "Guest Essay",
+        "des_facet": [
+          "Fires and Firefighters",
+          "Wildfires",
+          "Wages and Salaries",
+          "United States Politics and Government",
+          "Workplace Hazards and Violations",
+          "Labor and Jobs",
+          "Federal Budget (US)"
+        ],
+        "org_facet": [
+          "Forest Service"
+        ],
+        "per_facet": [],
+        "geo_facet": [
+          "California",
+          "Western States (US)",
+          "United States"
+        ],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22langellier-tkwz/22langellier-tkwz-superJumbo-v2.jpg",
+            "format": "Super Jumbo",
+            "height": 2048,
+            "width": 1640,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Justin Gilliland"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22langellier-tkwz/22langellier-tkwz-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Justin Gilliland"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22langellier-tkwz/22langellier-tkwz-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Justin Gilliland"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "Sean Combs and the Limits of the ‘Family Man’ Defense",
+        "abstract": "Famous people have long tried to launder their images through their spouses and children.",
+        "url": "https://www.nytimes.com/2024/09/21/opinion/sean-combs-family-man-defense.html",
+        "uri": "nyt://article/af969388-13f8-5d65-b2c1-cd663f4fc782",
+        "byline": "By Jessica Grose",
+        "item_type": "Article",
+        "updated_date": "2024-09-22T16:06:16-04:00",
+        "created_date": "2024-09-21T09:00:04-04:00",
+        "published_date": "2024-09-21T09:00:04-04:00",
+        "material_type_facet": "",
+        "kicker": "Jessica Grose",
+        "des_facet": [
+          "Human Trafficking",
+          "Sex Crimes",
+          "Racketeering and Racketeers",
+          "Parenting",
+          "Celebrities",
+          "Rap and Hip-Hop"
+        ],
+        "org_facet": [],
+        "per_facet": [
+          "Combs, Sean"
+        ],
+        "geo_facet": [],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/21/opinion/21grose-newsletter-image/21grose-newsletter-image-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 2048,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Illustration by Sam Whitney/The New York Times; source photograph by lawcain/Getty Images"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/21/opinion/21grose-newsletter-image/21grose-newsletter-image-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Illustration by Sam Whitney/The New York Times; source photograph by lawcain/Getty Images"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/21/opinion/21grose-newsletter-image/21grose-newsletter-image-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Illustration by Sam Whitney/The New York Times; source photograph by lawcain/Getty Images"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "The 2024 Election Is a Retreat From Ideology",
+        "abstract": "Whatever the Trump-Harris election season is delivering, it isn’t a grand ideological debate.",
+        "url": "https://www.nytimes.com/2024/09/21/opinion/trump-harris-2024-ideology.html",
+        "uri": "nyt://article/2bebe584-cbec-5cba-be0f-650b72298e5d",
+        "byline": "By Ross Douthat",
+        "item_type": "Article",
+        "updated_date": "2024-09-22T16:12:25-04:00",
+        "created_date": "2024-09-21T07:00:37-04:00",
+        "published_date": "2024-09-21T07:00:37-04:00",
+        "material_type_facet": "",
+        "kicker": "Ross Douthat",
+        "des_facet": [
+          "Presidential Election of 2024",
+          "Conservatism (US Politics)",
+          "Liberalism (US Politics)",
+          "United States Politics and Government"
+        ],
+        "org_facet": [
+          "Democratic Party",
+          "Republican Party"
+        ],
+        "per_facet": [
+          "Harris, Kamala D",
+          "Trump, Donald J"
+        ],
+        "geo_facet": [],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/21douthat/21douthat-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 1365,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Eric Ruby"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/21douthat/21douthat-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Eric Ruby"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/23/opinion/21douthat/21douthat-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Eric Ruby"
+          }
+        ],
+        "short_url": ""
+      },
+      {
+        "section": "opinion",
+        "subsection": "",
+        "title": "How the Powerful Outmaneuvered the American Protest Movement",
+        "abstract": "It’s time for organizers to invent a new model.",
+        "url": "https://www.nytimes.com/2024/09/21/opinion/campus-protests-internet-america.html",
+        "uri": "nyt://article/6fd23386-b74b-56ad-a237-30ed87dce22d",
+        "byline": "By Zeynep Tufekci",
+        "item_type": "Article",
+        "updated_date": "2024-09-22T16:26:37-04:00",
+        "created_date": "2024-09-21T07:00:32-04:00",
+        "published_date": "2024-09-21T07:00:32-04:00",
+        "material_type_facet": "",
+        "kicker": "Zeynep Tufekci",
+        "des_facet": [
+          "Demonstrations, Protests and Riots",
+          "United States Politics and Government",
+          "Democracy (Theory and Philosophy)",
+          "Presidential Election of 2024",
+          "Pro-Palestinian Campus Protests (2023- )",
+          "Social Media",
+          "Democratic National Convention",
+          "Republican National Convention"
+        ],
+        "org_facet": [],
+        "per_facet": [],
+        "geo_facet": [
+          "United States",
+          "Chicago (Ill)",
+          "Milwaukee (Wis)",
+          "Zuccotti Park (Manhattan, NY)"
+        ],
+        "multimedia": [
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/21tufekci-vjhq/21tufekci-vjhq-superJumbo.jpg",
+            "format": "Super Jumbo",
+            "height": 1365,
+            "width": 2048,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Sophie Park for The New York Times"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/21tufekci-vjhq/21tufekci-vjhq-threeByTwoSmallAt2X.jpg",
+            "format": "threeByTwoSmallAt2X",
+            "height": 400,
+            "width": 600,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Sophie Park for The New York Times"
+          },
+          {
+            "url": "https://static01.nyt.com/images/2024/09/22/multimedia/21tufekci-vjhq/21tufekci-vjhq-thumbLarge.jpg",
+            "format": "Large Thumbnail",
+            "height": 150,
+            "width": 150,
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Sophie Park for The New York Times"
+          }
+        ],
+        "short_url": ""
+      }
+    ]
+  }

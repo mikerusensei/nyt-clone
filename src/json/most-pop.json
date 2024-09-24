@@ -1,0 +1,1217 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2024 The New York Times Company.  All Rights Reserved.",
+    "num_results": 20,
+    "results": [
+      {
+        "uri": "nyt://article/bb9e48ce-0945-5ed4-adba-a32cae2f313c",
+        "url": "https://www.nytimes.com/2024/09/23/us/politics/trump-assassination-attempt-routh-hearing.html",
+        "id": 100000009713532,
+        "asset_id": 100000009713532,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 20:04:40",
+        "section": "U.S.",
+        "subsection": "Politics",
+        "nytdsection": "u.s.",
+        "adx_keywords": "Assassinations and Attempted Assassinations;United States Politics and Government;Routh, Ryan Wesley;Trump, Donald J;Secret Service;Florida",
+        "column": null,
+        "byline": "By Patricia Mazzei, Adam Goldman and Glenn Thrush",
+        "type": "Article",
+        "title": "U.S. to Seek Attempted Assassination Charge for Trump Golf Course Suspect",
+        "abstract": "Prosecutors disclosed new information in a memo written to persuade a federal judge to detain the suspect indefinitely while he awaits trial.",
+        "des_facet": [
+          "Assassinations and Attempted Assassinations",
+          "United States Politics and Government"
+        ],
+        "org_facet": [
+          "Secret Service"
+        ],
+        "per_facet": [
+          "Routh, Ryan Wesley",
+          "Trump, Donald J"
+        ],
+        "geo_facet": [
+          "Florida"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "Ryan W. Routh reconnoitered the grounds of former President Donald J. Trump’s golf course in West Palm Beach, Fla., for a month before the apparent assassination attempt.",
+            "copyright": "Saul Martinez for The New York Times",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23dc-Routh-gwzp/23dc-Routh-gwzp-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23dc-Routh-gwzp/23dc-Routh-gwzp-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23dc-Routh-gwzp/23dc-Routh-gwzp-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/94e9e776-ca1a-56b6-b049-4b37528d5f2d",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/donald-trump-mark-robinson-maga.html",
+        "id": 100000009708117,
+        "asset_id": 100000009708117,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 13:10:17",
+        "section": "Opinion",
+        "subsection": "",
+        "nytdsection": "opinion",
+        "adx_keywords": "Presidential Election of 2024;Gun Control;United States Politics and Government;Robinson, Mark K (1968- );Trump, Donald J;Republican Party;Springfield (Ohio)",
+        "column": null,
+        "byline": "By Gail Collins and Bret Stephens",
+        "type": "Article",
+        "title": "Another Trump Acolyte Finds Himself in Big Trouble",
+        "abstract": "The Mark Robinson story is yet another case of self-declared morality being at variance with actual behavior.",
+        "des_facet": [
+          "Presidential Election of 2024",
+          "Gun Control",
+          "United States Politics and Government"
+        ],
+        "org_facet": [
+          "Republican Party"
+        ],
+        "per_facet": [
+          "Robinson, Mark K (1968- )",
+          "Trump, Donald J"
+        ],
+        "geo_facet": [
+          "Springfield (Ohio)"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Hiroko Masuike/The New York Times",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/24/multimedia/23conversation1-wvfk/23conversation1-wvfk-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/24/multimedia/23conversation1-wvfk/23conversation1-wvfk-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/24/multimedia/23conversation1-wvfk/23conversation1-wvfk-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/48318b20-fad9-59ac-aceb-7c0ec28e416a",
+        "url": "https://www.nytimes.com/2024/09/23/arts/music/sean-combs-diddy-arrest-metoo-music.html",
+        "id": 100000009689264,
+        "asset_id": 100000009689264,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 10:59:55",
+        "section": "Arts",
+        "subsection": "Music",
+        "nytdsection": "arts",
+        "adx_keywords": "Sexual Harassment;Sex Crimes;#MeToo Movement;Music;Suits and Litigation (Civil);Nondisclosure Agreements;Women and Girls;Workplace Hazards and Violations;Combs, Sean",
+        "column": null,
+        "byline": "By Ben Sisario",
+        "type": "Article",
+        "title": "Sean Combs’s Arrest Has the Music World Asking: Is Our #MeToo Here?",
+        "abstract": "Activists and survivors are hopeful for change after the industry, which has a pervasive party culture, largely avoided the accountability that swept Hollywood and politics.",
+        "des_facet": [
+          "Sexual Harassment",
+          "Sex Crimes",
+          "#MeToo Movement",
+          "Music",
+          "Suits and Litigation (Civil)",
+          "Nondisclosure Agreements",
+          "Women and Girls",
+          "Workplace Hazards and Violations"
+        ],
+        "org_facet": [],
+        "per_facet": [
+          "Combs, Sean"
+        ],
+        "geo_facet": [],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "A federal indictment accuses Sean Combs of running a criminal enterprise centered on abusing women. He has pleaded not guilty.",
+            "copyright": "Victor Decolongon/Getty Images",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/arts/23combs-metoo-diddy/23combs-metoo-diddy-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/arts/23combs-metoo-diddy/23combs-metoo-diddy-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/arts/23combs-metoo-diddy/23combs-metoo-diddy-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/3cf2efb2-a8be-5bb6-a1e5-a55c506289d4",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/disinformation-double-standard.html",
+        "id": 100000009688004,
+        "asset_id": 100000009688004,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 09:03:44",
+        "section": "Opinion",
+        "subsection": "",
+        "nytdsection": "opinion",
+        "adx_keywords": "Rumors and Misinformation;Presidential Election of 2024;Charlottesville, Va, Violence (August, 2017);Storming of the US Capitol (Jan, 2021);Trump, Donald J;Harris, Kamala D;Biden, Joseph R Jr",
+        "column": null,
+        "byline": "By James Kirchick",
+        "type": "Article",
+        "title": "How Lying Became Disinformation",
+        "abstract": "Today “disinformation” and “misinformation” are often invoked by the left in the same way “fake news” is by the right.",
+        "des_facet": [
+          "Rumors and Misinformation",
+          "Presidential Election of 2024",
+          "Charlottesville, Va, Violence (August, 2017)",
+          "Storming of the US Capitol (Jan, 2021)"
+        ],
+        "org_facet": [],
+        "per_facet": [
+          "Trump, Donald J",
+          "Harris, Kamala D",
+          "Biden, Joseph R Jr"
+        ],
+        "geo_facet": [],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Photo Illustration by Tam Stockton for The New York Times; source photographs by Damon Winter/The New York Times and Jacquelyn Martin/Associated Press",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/16/multimedia/16kirchick-vtzg/16kirchick-vtzg-thumbStandard-v2.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/16/multimedia/16kirchick-vtzg/16kirchick-vtzg-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/16/multimedia/16kirchick-vtzg/16kirchick-vtzg-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/13c52d5e-f056-5522-924d-b71840ffc3e5",
+        "url": "https://www.nytimes.com/live/2024/09/17/opinion/thepoint/trump-beatable-sympathy-tipsheet",
+        "id": 100000009712839,
+        "asset_id": 100000009712839,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 08:58:03",
+        "section": "Opinion",
+        "subsection": "",
+        "nytdsection": "opinion",
+        "adx_keywords": "",
+        "column": null,
+        "byline": "By Patrick Healy",
+        "type": "Article",
+        "title": "Why Trump Is Beatable in November",
+        "abstract": "His personal behavior has canceled out any possible sympathy vote.",
+        "des_facet": [],
+        "org_facet": [],
+        "per_facet": [],
+        "geo_facet": [],
+        "media": [],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/baa06c45-3c3d-55d2-beef-371cf6120189",
+        "url": "https://www.nytimes.com/2024/09/23/us/politics/kamala-harris-kimberly-guilfoyle-san-francisco-da.html",
+        "id": 100000009706038,
+        "asset_id": 100000009706038,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 14:16:09",
+        "section": "U.S.",
+        "subsection": "Politics",
+        "nytdsection": "u.s.",
+        "adx_keywords": "Presidential Election of 2024;Elections, District Attorneys;Politics and Government;Content Type: Personal Profile;Biden, Joseph R Jr;Brown, Willie L Jr;Guilfoyle, Kimberly;Harris, Kamala D;Newsom, Gavin;Trump, Donald J Jr;Trump, Donald J;Court TV;Fox News Channel;Republican Party;San Francisco Chronicle;Alameda County (Calif);Oakland (Calif);San Francisco (Calif)",
+        "column": null,
+        "byline": "By Matt Flegenheimer",
+        "type": "Article",
+        "title": "The Long, Strange Saga of Kamala Harris and Kimberly Guilfoyle",
+        "abstract": "More than two decades ago, the future vice president and the future conservative firebrand were rising legal stars in San Francisco. Then Ms. Guilfoyle accused Ms. Harris of trying to deny her a job.",
+        "des_facet": [
+          "Presidential Election of 2024",
+          "Elections, District Attorneys",
+          "Politics and Government",
+          "Content Type: Personal Profile"
+        ],
+        "org_facet": [
+          "Court TV",
+          "Fox News Channel",
+          "Republican Party",
+          "San Francisco Chronicle"
+        ],
+        "per_facet": [
+          "Biden, Joseph R Jr",
+          "Brown, Willie L Jr",
+          "Guilfoyle, Kimberly",
+          "Harris, Kamala D",
+          "Newsom, Gavin",
+          "Trump, Donald J Jr",
+          "Trump, Donald J"
+        ],
+        "geo_facet": [
+          "Alameda County (Calif)",
+          "Oakland (Calif)",
+          "San Francisco (Calif)"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "Vice President Kamala Harris and Kimberly Guilfoyle, a supporter of former President Donald J. Trump and the fiancée of Donald Trump Jr., were prosecutors in San Francisco more than two decades ago.",
+            "copyright": "Kenny Holston/The New York Times, Maddie McGarvey for The New York Times",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/19/us/politics/00harris-guilfoyle1/00harris-guilfoyle1-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/19/us/politics/00harris-guilfoyle1/00harris-guilfoyle1-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/19/us/politics/00harris-guilfoyle1/00harris-guilfoyle1-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/b82f9a0d-a3b7-57d2-973e-c1762590d0d6",
+        "url": "https://www.nytimes.com/2024/09/22/us/cat-yellowstone-california.html",
+        "id": 100000009712512,
+        "asset_id": 100000009712512,
+        "source": "New York Times",
+        "published_date": "2024-09-22",
+        "updated": "2024-09-23 09:55:56",
+        "section": "U.S.",
+        "subsection": "",
+        "nytdsection": "u.s.",
+        "adx_keywords": "National Parks, Monuments and Seashores;Camps and Camping;Pets;Cats;Roseville (Calif);Yellowstone National Park",
+        "column": null,
+        "byline": "By Sara Ruberg",
+        "type": "Article",
+        "title": "Cat Missing in Yellowstone Returns Home to California After an 800-Mile Trek",
+        "abstract": "The owners of Rayne Beau, the 2-year-old Siamese cat, have no idea how their cat made it back, but call his return a “miracle.”",
+        "des_facet": [
+          "National Parks, Monuments and Seashores",
+          "Camps and Camping",
+          "Pets",
+          "Cats"
+        ],
+        "org_facet": [],
+        "per_facet": [],
+        "geo_facet": [
+          "Roseville (Calif)",
+          "Yellowstone National Park"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "Rayne Beau once escaped over a backyard fence. Then he escaped into “the biggest backyard in the United States.”",
+            "copyright": "Susanne Anguiano",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22xp-cat/22xp-cat-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22xp-cat/22xp-cat-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22xp-cat/22xp-cat-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/7abc11fe-9cdb-5c09-9c64-0892a5680519",
+        "url": "https://www.nytimes.com/2024/09/23/arts/television/the-west-wing-25th-anniversary.html",
+        "id": 100000009700804,
+        "asset_id": 100000009700804,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 09:24:28",
+        "section": "Arts",
+        "subsection": "Television",
+        "nytdsection": "arts",
+        "adx_keywords": "Television;Sorkin, Aaron;Sheen, Martin",
+        "column": null,
+        "byline": "By James Poniewozik",
+        "type": "Article",
+        "title": "What Did ‘The West Wing’ Do to Us?",
+        "abstract": "As Aaron Sorkin’s political fantasy turns 25, its romance has aged better than its politics.",
+        "des_facet": [
+          "Television"
+        ],
+        "org_facet": [],
+        "per_facet": [
+          "Sorkin, Aaron",
+          "Sheen, Martin"
+        ],
+        "geo_facet": [],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "“The West Wing,” anchored by Martin Sheen’s President Josiah Bartlet, center, debuted in September 1999. Its core fantasy was that the right thing and the politically effective thing are the same thing.",
+            "copyright": "Kevin Foley/NBCU Photo Bank",
+            "approved_for_syndication": 0,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/24/multimedia/23westwing-notebook-04-vzlm/23westwing-notebook-04-vzlm-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/24/multimedia/23westwing-notebook-04-vzlm/23westwing-notebook-04-vzlm-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/24/multimedia/23westwing-notebook-04-vzlm/23westwing-notebook-04-vzlm-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/7af6b914-1281-5911-a781-80a751d8ad6e",
+        "url": "https://www.nytimes.com/2024/09/20/realestate/london-tiny-apartment-kings-cross.html",
+        "id": 100000009495939,
+        "asset_id": 100000009495939,
+        "source": "New York Times",
+        "published_date": "2024-09-20",
+        "updated": "2024-09-23 12:53:41",
+        "section": "Real Estate",
+        "subsection": "",
+        "nytdsection": "real estate",
+        "adx_keywords": "Interior Design and Furnishings;Home Repairs and Improvements;Tiny Homes and Micro-Housing;Color;Paint;King's Cross (London, England)",
+        "column": null,
+        "byline": "By Julie Lasky",
+        "type": "Article",
+        "title": "How Much Color Can You Fit Into 430 Square Feet?",
+        "abstract": "A tiny apartment in London shows that you don’t have to paint everything white to make a space feel larger than life.",
+        "des_facet": [
+          "Interior Design and Furnishings",
+          "Home Repairs and Improvements",
+          "Tiny Homes and Micro-Housing",
+          "Color",
+          "Paint"
+        ],
+        "org_facet": [],
+        "per_facet": [],
+        "geo_facet": [
+          "King's Cross (London, England)"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "Regan Leahy and Fearghas MacGregor wanted a green kitchen in their little apartment to contrast the industrial character of their King’s Cross neighborhood.",
+            "copyright": "Anna Batchelor",
+            "approved_for_syndication": 0,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/20/multimedia/20small-kingscross-01-qvfl/20small-kingscross-01-qvfl-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/20/multimedia/20small-kingscross-01-qvfl/20small-kingscross-01-qvfl-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/20/multimedia/20small-kingscross-01-qvfl/20small-kingscross-01-qvfl-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/acc8c7bf-c14d-5cf2-b376-753983429285",
+        "url": "https://www.nytimes.com/2024/09/23/climate/hybrid-electric-vehicles.html",
+        "id": 100000009660572,
+        "asset_id": 100000009660572,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 14:53:07",
+        "section": "Climate",
+        "subsection": "",
+        "nytdsection": "climate",
+        "adx_keywords": "Electric and Hybrid Vehicles;Greenhouse Gas Emissions;Fuel Efficiency;Content Type: Service",
+        "column": null,
+        "byline": "By Jack Ewing",
+        "type": "Article",
+        "title": "Should I Get a Hybrid or Go Full Electric?",
+        "abstract": "Here’s what to know if you’re in the market for a climate-friendly vehicle.",
+        "des_facet": [
+          "Electric and Hybrid Vehicles",
+          "Greenhouse Gas Emissions",
+          "Fuel Efficiency",
+          "Content Type: Service"
+        ],
+        "org_facet": [],
+        "per_facet": [],
+        "geo_facet": [],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Naomi Anderson-Subryan",
+            "approved_for_syndication": 0,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/24/climate/00cli-askclimate-hybrids/00cli-askclimate-hybrids-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/24/climate/00cli-askclimate-hybrids/00cli-askclimate-hybrids-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/24/climate/00cli-askclimate-hybrids/00cli-askclimate-hybrids-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/17e42747-5fa5-5a0f-829d-cbd86df97f26",
+        "url": "https://www.nytimes.com/2024/09/22/us/congress-spending-deal-johnson.html",
+        "id": 100000009712328,
+        "asset_id": 100000009712328,
+        "source": "New York Times",
+        "published_date": "2024-09-22",
+        "updated": "2024-09-23 12:01:21",
+        "section": "U.S.",
+        "subsection": "",
+        "nytdsection": "u.s.",
+        "adx_keywords": "Federal Budget (US);United States Politics and Government;Shutdowns (Institutional);Voting Rights, Registration and Requirements;Johnson, Mike (1972- );House of Representatives;Senate;Secret Service;Republican Party;Democratic Party",
+        "column": null,
+        "byline": "By Karoun Demirjian",
+        "type": "Article",
+        "title": "Congress Unveils Short-Term Spending Deal",
+        "abstract": "Speaker Mike Johnson dropped his demands for proof-of-citizenship voting requirements to strike a deal that includes more money for the Secret Service and funds the government through Dec. 20.",
+        "des_facet": [
+          "Federal Budget (US)",
+          "United States Politics and Government",
+          "Shutdowns (Institutional)",
+          "Voting Rights, Registration and Requirements"
+        ],
+        "org_facet": [
+          "House of Representatives",
+          "Senate",
+          "Secret Service",
+          "Republican Party",
+          "Democratic Party"
+        ],
+        "per_facet": [
+          "Johnson, Mike (1972- )"
+        ],
+        "geo_facet": [],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "“A continuing resolution is the only option that remains,” Speaker Mike Johnson said in a letter on Sunday.",
+            "copyright": "Eric Lee/The New York Times",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22dc-spend-kwqm/22dc-spend-kwqm-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22dc-spend-kwqm/22dc-spend-kwqm-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22dc-spend-kwqm/22dc-spend-kwqm-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/7ac98fdf-0445-5e48-b3b9-caecfa9367aa",
+        "url": "https://www.nytimes.com/2024/09/23/us/politics/times-siena-polls-arizona-georgia-north-carolina.html",
+        "id": 100000009709697,
+        "asset_id": 100000009709697,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 09:40:46",
+        "section": "U.S.",
+        "subsection": "Politics",
+        "nytdsection": "u.s.",
+        "adx_keywords": "Presidential Election of 2024;Polls and Public Opinion;Abortion;Gallego, Ruben (1979- );Lake, Kari A;Harris, Kamala D;Robinson, Mark K (1968- );Stein, Josh (1966- );Trump, Donald J;New York Times/Siena College Poll",
+        "column": null,
+        "byline": "By Adam Nagourney, Ruth Igielnik and Camille Baker",
+        "type": "Article",
+        "title": "Trump Shows Signs of Strength in Sun Belt Battlegrounds, Polls Find",
+        "abstract": "New polls from The New York Times and Siena College showed Donald J. Trump ahead in Arizona and leading in tight races in Georgia and North Carolina.",
+        "des_facet": [
+          "Presidential Election of 2024",
+          "Polls and Public Opinion",
+          "Abortion"
+        ],
+        "org_facet": [
+          "New York Times/Siena College Poll"
+        ],
+        "per_facet": [
+          "Gallego, Ruben (1979- )",
+          "Lake, Kari A",
+          "Harris, Kamala D",
+          "Robinson, Mark K (1968- )",
+          "Stein, Josh (1966- )",
+          "Trump, Donald J"
+        ],
+        "geo_facet": [],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "The New York Times",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/20/multimedia/2024-09-19-state-polls-az-ga-nc-index/2024-09-19-state-polls-az-ga-nc-index-thumbStandard-v2.png",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/20/multimedia/2024-09-19-state-polls-az-ga-nc-index/2024-09-19-state-polls-az-ga-nc-index-mediumThreeByTwo210-v2.png",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/20/multimedia/2024-09-19-state-polls-az-ga-nc-index/2024-09-19-state-polls-az-ga-nc-index-mediumThreeByTwo440-v2.png",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/5f1a20ad-86fd-5390-9dd9-dba05a270936",
+        "url": "https://www.nytimes.com/2024/09/23/us/politics/nebraska-mike-mcdonnell-electoral-vote-trump.html",
+        "id": 100000009711873,
+        "asset_id": 100000009711873,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 14:34:58",
+        "section": "U.S.",
+        "subsection": "Politics",
+        "nytdsection": "u.s.",
+        "adx_keywords": "Presidential Election of 2024;Electoral College;United States Politics and Government;State Legislatures;McDonnell, Mike (1966- );Trump, Donald J;Harris, Kamala D;Nebraska",
+        "column": null,
+        "byline": "By Reid J. Epstein",
+        "type": "Article",
+        "title": "Key Nebraska Republican Rejects Trump’s Push to Shake Up Electoral Map",
+        "abstract": "Mike McDonnell, a state senator, said he would not support an effort to change the state’s electoral system to winner take all, an outcome that could have cost Kamala Harris an electoral vote.",
+        "des_facet": [
+          "Presidential Election of 2024",
+          "Electoral College",
+          "United States Politics and Government",
+          "State Legislatures"
+        ],
+        "org_facet": [],
+        "per_facet": [
+          "McDonnell, Mike (1966- )",
+          "Trump, Donald J",
+          "Harris, Kamala D"
+        ],
+        "geo_facet": [
+          "Nebraska"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "When State Senator Mike McDonnell emerged as the key vote on the issue, he found himself being pressured by high-level allies of the Harris and Trump campaigns.",
+            "copyright": "Nati Harnik/Associated Press",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/22/multimedia/00pol-nebraska-hfo-mzbl/00pol-nebraska-hfo-mzbl-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/22/multimedia/00pol-nebraska-hfo-mzbl/00pol-nebraska-hfo-mzbl-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/22/multimedia/00pol-nebraska-hfo-mzbl/00pol-nebraska-hfo-mzbl-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/404d7551-eb65-5463-86f5-03153c9b3de1",
+        "url": "https://www.nytimes.com/2024/09/23/us/supreme-court-guns-second-amendment.html",
+        "id": 100000009711586,
+        "asset_id": 100000009711586,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 09:34:18",
+        "section": "U.S.",
+        "subsection": "",
+        "nytdsection": "u.s.",
+        "adx_keywords": "New York State Rifle & Pistol Association v Bruen (Supreme Court Decision);Gun Control;Decisions and Verdicts;Second Amendment (US Constitution);Appeals Courts (US);Diaz, Albert (1960- );Thomas, Clarence;Supreme Court (US)",
+        "column": null,
+        "byline": "By Adam Liptak",
+        "type": "Article",
+        "title": "Supreme Court’s Gun Rulings Leave Baffled Judges Asking for Help",
+        "abstract": "In June, the court tried to explain its new history-based approach to the Second Amendment. But judges said the latest decision “offered little instruction or clarity.”",
+        "des_facet": [
+          "New York State Rifle & Pistol Association v Bruen (Supreme Court Decision)",
+          "Gun Control",
+          "Decisions and Verdicts",
+          "Second Amendment (US Constitution)",
+          "Appeals Courts (US)"
+        ],
+        "org_facet": [
+          "Supreme Court (US)"
+        ],
+        "per_facet": [
+          "Diaz, Albert (1960- )",
+          "Thomas, Clarence"
+        ],
+        "geo_facet": [],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "Looking for historical analogies to modern gun control laws, as required by Justice Clarence Thomas’s 2022 majority opinion in New York State Rifle & Pistol Association v. Bruen, can yield surprising results.",
+            "copyright": "Eric Lee/The New York Times",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23dc-bar-zfbp/23dc-bar-zfbp-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23dc-bar-zfbp/23dc-bar-zfbp-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23dc-bar-zfbp/23dc-bar-zfbp-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/56885c70-d68f-5b9a-966d-74c32de22345",
+        "url": "https://www.nytimes.com/2024/09/20/dining/reader-responses-favorite-cooking-recipes.html",
+        "id": 100000009704584,
+        "asset_id": 100000009704584,
+        "source": "New York Times",
+        "published_date": "2024-09-20",
+        "updated": "2024-09-23 17:54:11",
+        "section": "Food",
+        "subsection": "",
+        "nytdsection": "food",
+        "adx_keywords": "Cooking and Cookbooks;Recipes;src-reader-callout",
+        "column": null,
+        "byline": "By Tanya Sichynsky",
+        "type": "Article",
+        "title": "19 More of Our Best Recipes Ever, According to You",
+        "abstract": "You let us know what we missed from our list of NYT Cooking’s 50 greatest hits.",
+        "des_facet": [
+          "Cooking and Cookbooks",
+          "Recipes",
+          "src-reader-callout"
+        ],
+        "org_facet": [],
+        "per_facet": [],
+        "geo_facet": [],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Julia Gartland for The New York Times. Food Stylist: Barrett Washburne.",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2020/12/20/dining/20Anniversary-Callout-italian-wedding/merlin_149536266_3c7ae6a6-df66-4be9-85b8-b342ddc49038-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2020/12/20/dining/20Anniversary-Callout-italian-wedding/merlin_149536266_3c7ae6a6-df66-4be9-85b8-b342ddc49038-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2020/12/20/dining/20Anniversary-Callout-italian-wedding/merlin_149536266_3c7ae6a6-df66-4be9-85b8-b342ddc49038-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/1ad86b2d-0629-525e-a23a-ef2a82fb2e64",
+        "url": "https://www.nytimes.com/2024/09/23/technology/ai-jim-covello-goldman-sachs.html",
+        "id": 100000009693313,
+        "asset_id": 100000009693313,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 20:06:14",
+        "section": "Technology",
+        "subsection": "",
+        "nytdsection": "technology",
+        "adx_keywords": "Artificial Intelligence;Computers and the Internet;Research;Covello, Jim;OpenAI Labs;Goldman Sachs Group Inc;NVIDIA Corporation",
+        "column": null,
+        "byline": "By Tripp Mickle",
+        "type": "Article",
+        "title": "Will A.I. Be a Bust? A Wall Street Skeptic Rings the Alarm.",
+        "abstract": "Jim Covello, Goldman Sachs’s head of stock research, warned that building too much of what the world doesn’t need “typically ends badly.”",
+        "des_facet": [
+          "Artificial Intelligence",
+          "Computers and the Internet",
+          "Research"
+        ],
+        "org_facet": [
+          "OpenAI Labs",
+          "Goldman Sachs Group Inc",
+          "NVIDIA Corporation"
+        ],
+        "per_facet": [
+          "Covello, Jim"
+        ],
+        "geo_facet": [],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "Jim Covello predicts that the A.I. boom will lose steam when the companies that are adopting the technology cut spending.",
+            "copyright": "Victor Llorente for The New York Times",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/18/multimedia/ai-skeptic-Jim-wtbq/ai-skeptic-Jim-wtbq-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/18/multimedia/ai-skeptic-Jim-wtbq/ai-skeptic-Jim-wtbq-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/18/multimedia/ai-skeptic-Jim-wtbq/ai-skeptic-Jim-wtbq-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/fe61de69-42da-5c0d-b5aa-696287309aa4",
+        "url": "https://www.nytimes.com/2024/09/23/opinion/russia-putin-kremlin.html",
+        "id": 100000009694182,
+        "asset_id": 100000009694182,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 13:17:49",
+        "section": "Opinion",
+        "subsection": "",
+        "nytdsection": "opinion",
+        "adx_keywords": "Surveillance of Citizens by Government;Espionage and Intelligence Services;Kidnapping and Hostages;Deportation;Political Prisoners;Stalking (Crime);Immigration and Emigration;Putin, Vladimir V;Russia",
+        "column": null,
+        "byline": "By Lilia Yapparova",
+        "type": "Article",
+        "title": "Putin Is Doing Something Almost Nobody Is Noticing",
+        "abstract": "It’s not just opposition figures who are caught in the Kremlin’s dragnet.",
+        "des_facet": [
+          "Surveillance of Citizens by Government",
+          "Espionage and Intelligence Services",
+          "Kidnapping and Hostages",
+          "Deportation",
+          "Political Prisoners",
+          "Stalking (Crime)",
+          "Immigration and Emigration"
+        ],
+        "org_facet": [],
+        "per_facet": [
+          "Putin, Vladimir V"
+        ],
+        "geo_facet": [
+          "Russia"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Pool photo by Alexander Kazakov",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23yapparova-wlkf/23yapparova-wlkf-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23yapparova-wlkf/23yapparova-wlkf-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23yapparova-wlkf/23yapparova-wlkf-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/7d0ac52b-8f71-5268-bcbb-c880f9f50959",
+        "url": "https://www.nytimes.com/2024/09/23/us/young-men-religion-gen-z.html",
+        "id": 100000009684784,
+        "asset_id": 100000009684784,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 20:01:40",
+        "section": "U.S.",
+        "subsection": "",
+        "nytdsection": "u.s.",
+        "adx_keywords": "Religion and Belief;Generation Z;Women and Girls;Men and Boys;Christians and Christianity;audio-neutral-informative;Southern Baptist Convention;Waco (Tex)",
+        "column": null,
+        "byline": "By Ruth Graham",
+        "type": "Article",
+        "title": "In a First Among Christians, Young Men Are More Religious Than Young Women",
+        "abstract": "At Grace Church in Waco, Texas, the Generation Z gender divide can be seen in the pews. It has the potential to reshape both politics and family life.",
+        "des_facet": [
+          "Religion and Belief",
+          "Generation Z",
+          "Women and Girls",
+          "Men and Boys",
+          "Christians and Christianity",
+          "audio-neutral-informative"
+        ],
+        "org_facet": [
+          "Southern Baptist Convention"
+        ],
+        "per_facet": [],
+        "geo_facet": [
+          "Waco (Tex)"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "Churchgoers watch a baptism at Grace Church in Waco, Texas, in September.",
+            "copyright": "Meridith Kohut for The New York Times",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/19/multimedia/00nat-genz-TOP-kmbv-copy/00nat-genz-TOP-kmbv-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/19/multimedia/00nat-genz-TOP-kmbv-copy/00nat-genz-TOP-kmbv-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/19/multimedia/00nat-genz-TOP-kmbv-copy/00nat-genz-TOP-kmbv-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/997e637c-b20f-5c67-83ae-653354e43c27",
+        "url": "https://www.nytimes.com/2024/09/22/opinion/project-2025-trump-election.html",
+        "id": 100000009706313,
+        "asset_id": 100000009706313,
+        "source": "New York Times",
+        "published_date": "2024-09-22",
+        "updated": "2024-09-23 13:29:44",
+        "section": "Opinion",
+        "subsection": "",
+        "nytdsection": "opinion",
+        "adx_keywords": "Presidential Election of 2024;United States Politics and Government;Conservatism (US Politics);Presidential Power (US);Right-Wing Extremism and Alt-Right;Government Employees;Trump, Donald J;Vance, J D;Republican Party;Heritage Foundation",
+        "column": null,
+        "byline": "By Ezra Klein",
+        "type": "Article",
+        "title": "The MAGA Movement Has Become a Problem for Trump",
+        "abstract": "He can no longer run as if he is a man alone.",
+        "des_facet": [
+          "Presidential Election of 2024",
+          "United States Politics and Government",
+          "Conservatism (US Politics)",
+          "Presidential Power (US)",
+          "Right-Wing Extremism and Alt-Right",
+          "Government Employees"
+        ],
+        "org_facet": [
+          "Republican Party",
+          "Heritage Foundation"
+        ],
+        "per_facet": [
+          "Trump, Donald J",
+          "Vance, J D"
+        ],
+        "geo_facet": [],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "",
+            "copyright": "Mark Peterson for The New York Times",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22klein-jtzl/22klein-jtzl-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22klein-jtzl/22klein-jtzl-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/22/multimedia/22klein-jtzl/22klein-jtzl-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      },
+      {
+        "uri": "nyt://article/45720bae-7878-5a73-bcb8-bc2c4ba19823",
+        "url": "https://www.nytimes.com/2024/09/23/arts/ai-weiwei-porcelain-cube-italy.html",
+        "id": 100000009713140,
+        "asset_id": 100000009713140,
+        "source": "New York Times",
+        "published_date": "2024-09-23",
+        "updated": "2024-09-23 13:56:01",
+        "section": "Arts",
+        "subsection": "",
+        "nytdsection": "arts",
+        "adx_keywords": "Vandalism;Art;Sculpture;Ai Weiwei;Pisvejc, Vaclav;Palazzo Fava (Bologna, Italy);Bologna (Italy)",
+        "column": null,
+        "byline": "By Derrick Bryson Taylor",
+        "type": "Article",
+        "title": "Man Smashes Ai Weiwei’s Porcelain Sculpture at Italian Museum",
+        "abstract": "The man behind the episode, at a reception for Mr. Ai’s new exhibition in Bologna, has targeted artists before, a museum spokesman said.",
+        "des_facet": [
+          "Vandalism",
+          "Art",
+          "Sculpture"
+        ],
+        "org_facet": [
+          "Palazzo Fava (Bologna, Italy)"
+        ],
+        "per_facet": [
+          "Ai Weiwei",
+          "Pisvejc, Vaclav"
+        ],
+        "geo_facet": [
+          "Bologna (Italy)"
+        ],
+        "media": [
+          {
+            "type": "image",
+            "subtype": "photo",
+            "caption": "“Porcelain Cube,” a piece by Ai Weiwei, was smashed to pieces at the Palazzo Fava on Friday. ",
+            "copyright": "Genus Bononiae Press Office, via Reuters",
+            "approved_for_syndication": 1,
+            "media-metadata": [
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23xp-sculpture1-vbmq/23xp-sculpture1-vbmq-thumbStandard.jpg",
+                "format": "Standard Thumbnail",
+                "height": 75,
+                "width": 75
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23xp-sculpture1-vbmq/23xp-sculpture1-vbmq-mediumThreeByTwo210.jpg",
+                "format": "mediumThreeByTwo210",
+                "height": 140,
+                "width": 210
+              },
+              {
+                "url": "https://static01.nyt.com/images/2024/09/23/multimedia/23xp-sculpture1-vbmq/23xp-sculpture1-vbmq-mediumThreeByTwo440.jpg",
+                "format": "mediumThreeByTwo440",
+                "height": 293,
+                "width": 440
+              }
+            ]
+          }
+        ],
+        "eta_id": 0
+      }
+    ]
+  }
