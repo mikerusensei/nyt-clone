@@ -38,11 +38,11 @@
     margin:0.5rem;
 }
 
-#food-article article{
+#food-article article,  #opinion-article article{
     border-bottom: 1px solid var(--black);
 }
 
-#food-article a{
+#food-article a, #opinion-article a{
     text-decoration: none;
     font-family: "Cabin", sans-serif;
     font-size: 1rem;
@@ -52,6 +52,10 @@
 
 #food-article article .img-div img{
     width: 100px;
+}
+
+#opinion-article article{
+    border-bottom: 1px solid var(--black);
 }
 
 #opinion-article article .img-div img{

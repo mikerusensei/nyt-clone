@@ -1,14 +1,17 @@
 // Test Files
-// const latestfile = "json/newswire.json";
-// const popularfile = "json/most-pop.json";
-// const foodfile = "json/food.json";
-// const opinionfile = "json/opinion.json";
+const latestfile = "json/newswire.json";
+const popularfile = "json/most-pop.json";
+const foodfile = "json/food.json";
+const opinionfile = "json/opinion.json";
 
 // API Test
-// const latestfile = "https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=bMoWWsjXxQi8PP8DJFeehGHuIXd1dRcu";
-// const popularfile = "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=bMoWWsjXxQi8PP8DJFeehGHuIXd1dRcu";
-// const foodfile = "https://api.nytimes.com/svc/topstories/v2/food.json?api-key=bMoWWsjXxQi8PP8DJFeehGHuIXd1dRcu";
-// const opinionfile = "https://api.nytimes.com/svc/topstories/v2/opinion.json?api-key=bMoWWsjXxQi8PP8DJFeehGHuIXd1dRcu";
+// onst key = process.env.PARCEL_NYT_API;
+// const latestfile = `https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=${key}`;
+// const popularfile = `https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=${key}`;
+// const foodfile = `https://api.nytimes.com/svc/topstories/v2/food.json?api-key=${key}`;
+// const opinionfile = `https://api.nytimes.com/svc/topstories/v2/opinion.json?api-key=${key}`;
+
+let articlesRead;
 
 // Containers
 const popStories = document.getElementById('popular-article');
@@ -29,10 +32,19 @@ function getImage(article){
     return null;
 }
 function loopPopular(articles, root){
-    for (let i = 0; i < 5; i++){
+    let loopLength;
+    if (window.innerWidth == 768){
+        loopLength = 8;
+    }else if (window.innerWidth === 1024){
+        loopLength = 11;
+    }else{
+        loopLength = 5;
+    }
+
+    for (let i = 0; i < loopLength; i++){
         const article = articles[i];
         const articleContainer = document.createElement('article');
-        const imageContainer = document.createElement('img');
+        // const imageContainer = document.createElement('img');
         const anchorContainer = document.createElement('a');
         const authorContainer = document.createElement('p');
 
@@ -41,7 +53,7 @@ function loopPopular(articles, root){
             articleContainer.style.height = 'auto';
         }
         // Set up image
-        imageContainer.src = getImage(article);
+        // imageContainer.src = getImage(article);
 
         // Set up title anchor
         anchorContainer.href = article.url;
@@ -108,6 +120,58 @@ function loopLatest(articles, kind, root){
         root.appendChild(articleContainer);
     }
 }
+function adjustArticles(articles, root){
+    const windowWidth = window.innerWidth;
+    let childCount = root.children.length;
+
+    let target = 0;
+    console.log(childCount);
+
+    const data = [
+        {size: 425, articleNum: 5},
+        {size: 768, articleNum: 8},
+        {size: 1024, articleNum: 11}
+        
+    ]
+
+    for (const key in data){
+        const windowSize = data[key].size;
+        const articleNums = data[key].articleNum;
+
+        if (windowWidth <= windowSize){
+            target = articleNums;
+            break;
+        }
+    }
+
+    if (childCount < target){
+        for (let i = childCount; i < target; i++){
+            const article = articles[i];
+            const articleContainer = document.createElement('article');
+            const anchorContainer = document.createElement('a');
+            const authorContainer = document.createElement('p');
+
+            // Set up title anchor
+            anchorContainer.href = article.url;
+            anchorContainer.innerHTML = article.title;
+
+            // Set up author
+            authorContainer.innerHTML = article.byline;
+
+            // Add the children to the container
+            // articleContainer.appendChild(imageContainer);
+            articleContainer.appendChild(anchorContainer);
+            articleContainer.appendChild(authorContainer);
+
+            root.appendChild(articleContainer);
+        }
+    } else if (childCount > target){
+        while (childCount > target){
+            root.lastChild.remove();
+            childCount--;
+        }
+    }
+}
 
 function updateData(articles, root, kind){
     if (kind === 'popular'){
@@ -120,9 +184,10 @@ function updateData(articles, root, kind){
 async function getData(file, root, kind) {
     const result = await fetch(file);
     const data = await result.json();
-    updateData(data.results, root, kind);
+    articlesRead = data.results;
+    updateData(articlesRead, root, kind);
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    console.log(window.innerWidth);
-});
+window.addEventListener('resize', function(){
+    adjustArticles(articlesRead, popStories);
+})
