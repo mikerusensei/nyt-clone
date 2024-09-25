@@ -38,6 +38,10 @@
     margin:0.5rem;
 }
 
+.img-div img{
+    width: 100px;
+}
+
 #food-article article,  #opinion-article article{
     border-bottom: 1px solid var(--black);
 }

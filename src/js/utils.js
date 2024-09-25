@@ -83,12 +83,14 @@ export function displayArticles(articles, root, kind){
     let windowWidth = window.innerWidth;
 
     if (kind === 'popular'){
-        if (windowWidth <= 768){
-            loopLength = 8;
+        if (windowWidth <= 425){
+            loopLength = 3;
+        }else if (windowWidth <= 768){
+            loopLength = 5;
         }else if (windowWidth <= 1024){
             loopLength = 8;
         }else if (windowWidth <= 1440){
-            loopLength = 11;
+            loopLength = 8;
         }else if (windowWidth <= 2000){
             loopLength = 14;
         }
@@ -97,7 +99,18 @@ export function displayArticles(articles, root, kind){
         }
     }else if (kind === 'latest'){
         loopLength = 8;
-    }else{
+    }else if (kind === 'world'){
+        loopLength = 10;
+    }else if (kind === 'business'){
+        loopLength = 10;
+    }else if (kind === 'health'){
+        loopLength = 10;
+    }else if (kind === 'sports'){
+        loopLength = 10;
+    }else if (kind === 'science'){
+        loopLength = 10;
+    }
+    else{
         loopLength = 3;
     }
 

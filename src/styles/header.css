@@ -16,7 +16,7 @@
 
 }
 
-.title-logo p{
+.title-logo a{
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 2rem;
     color: var(--white);
