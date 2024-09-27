@@ -3,7 +3,6 @@ import { adjustArticles, displayArticles } from "./utils";
 // Test Files
 const latestfile = "json/newswire.json";
 const popularfile = "json/most-pop.json";
-const foodfile = "json/food.json";
 const opinionfile = "json/opinion.json";
 
 // API Test
@@ -16,7 +15,6 @@ const key = process.env.PARCEL_NYT_API;
 // Containers
 const popStories = document.getElementById('popular-article');
 const latestNews = document.getElementById('latest-article');
-const foodStories = document.getElementById('food-article');
 const opinionArticle = document.getElementById('opinion-article');
 const dynamicContent = document.getElementById('content-section');
 
@@ -51,17 +49,24 @@ async function makeFetch(){
     await fetchDelay(popularfile, popStories, 'popular');
     await fetchDelay(latestfile, latestNews, 'latest');
     await fetchDelay(opinionfile, opinionArticle, 'opinion');
-    await fetchDelay(foodfile, foodStories, 'food');
+    // await fetchDelay(foodfile, foodStories, 'food');
 }
 
 async function fetchDelay(file, root, kind){
-    await getData(file, root, kind);
-
+    displayFetching(root);
     await new Promise(function(resolve){
         setTimeout(resolve, 12000);
-    })
+    });
+    await getData(file, root, kind);
 }
 
+function displayFetching(root){
+    const div = document.createElement('div');
+    div.innerHTML= 'Fetching data please wait';
+
+    root.appendChild(div);
+
+}
 function displaySection(section){
     const file = `https://api.nytimes.com/svc/topstories/v2/${section}.json?api-key=${key}`;
     dynamicContent.innerHTML = '';
@@ -77,100 +82,77 @@ function updateData(articles, root, kind){
 logo.addEventListener('click', function(){
     dynamicContent.innerHTML = '';
     dynamicContent.style.flexDirection = null;
-    createElements(dynamicContent, 'main-content','popular');
-    createElements(dynamicContent, 'main-content','latest');
-    createElements(dynamicContent, 'side-content', 'opinion');
-    
+    createElements(dynamicContent, contentSection, 'main-content','popular');
+    createElements(dynamicContent, contentSection, 'main-content','latest');
+    createElements(dynamicContent, contentSection, 'side-content', 'opinion');
 })
 
-function createElements(root, section,kind){
-    root.innerHTML = '';
-    let mainContent;
-    if (section === 'main-content'){
-        mainContent = document.createElement('section');
-        mainContent.setAttribute('id', 'main-content');
-    }else{
-        mainContent = document.createElement('section');
-        mainContent.setAttribute('id', 'side-content');
+var contentSection = document.createElement('section');
+
+function createElements(root, section, sectionKind,kind){
+    const sectionIntialized = document.getElementById('main-content');
+
+    if (sectionIntialized && sectionKind === 'side-content'){
+        section = document.createElement('section');
     }
+
+    if (sectionKind === 'main-content'){
+        section.id = 'main-content';
+    }else if (sectionKind === 'side-content'){
+        section.id = 'side-content'
+    }
+
+    const content = document.createElement('div');
+    const article = document.createElement('main');
 
     if (kind === 'popular'){
-        const popContent = document.createElement('div');
-        const headerContainer = document.createElement('header');
-        const headerP = document.createElement('p')
-        const popularArticle = document.createElement('main');
-
-        popContent.setAttribute('class', 'popular-content');
-        headerContainer.setAttribute('class', 'header-container');
-        popularArticle.setAttribute('id', 'popular-article');
-
-        headerP.innerHTML = 'Popular Articles';
-        displayArticles(cache[kind], popularArticle, kind);
-
-        headerContainer.appendChild(headerP);
-        popContent.appendChild(headerContainer);
-        popContent.appendChild(popularArticle);
-
-        mainContent.appendChild(popContent);
-    }else if (kind === 'latest'){
-        const popContent = document.createElement('div');
-        const headerContainer = document.createElement('header');
-        const headerP = document.createElement('p')
-        const popularArticle = document.createElement('main');
-
-        popContent.setAttribute('class', 'latest-content');
-        headerContainer.setAttribute('class', 'header-container');
-        popularArticle.setAttribute('id', 'latest-article');
-
-        headerP.innerHTML = 'Latest Articles';
-        displayArticles(cache[kind], popularArticle, kind);
-
-        headerContainer.appendChild(headerP);
-        popContent.appendChild(headerContainer);
-        popContent.appendChild(popularArticle);
-
-        mainContent.appendChild(popContent);
-    }else if (kind === 'opinion'){
-        const popContent = document.createElement('div');
-        const headerContainer = document.createElement('header');
-        const popularArticle = document.createElement('main');
-
-        popContent.setAttribute('class', 'opinion-content');
-        popularArticle.setAttribute('id', 'opinion-article');
-
-        displayArticles(cache[kind], popularArticle, kind);
-
-        popContent.appendChild(headerContainer);
-        popContent.appendChild(popularArticle);
-
-        mainContent.appendChild(popContent);
-    }else if (kind === 'food'){
-        const popContent = document.createElement('div');
-        const headerContainer = document.createElement('header');
-        const headerP = document.createElement('p')
-        const popularArticle = document.createElement('main');
-
-        popContent.setAttribute('class', 'latest-content');
-        headerContainer.setAttribute('class', 'header-container');
-        popularArticle.setAttribute('id', 'latest-article');
-
-        headerP.innerHTML = 'Food';
-        displayArticles(cache[kind], popularArticle, kind);
-
-        headerContainer.appendChild(headerP);
-        popContent.appendChild(headerContainer);
-        popContent.appendChild(popularArticle);
-
-        mainContent.appendChild(popContent);
+        const header = document.createElement('header');
+        const title = document.createElement('p');
+        header.setAttribute('class', 'header-container');
+        content.setAttribute('class', 'popular-content');
+        article.setAttribute('id', 'popular-article');
+        title.innerHTML = 'Popular Articles';
+        header.appendChild(title);
+        content.appendChild(header);
+    } else if (kind === 'latest'){
+        const header = document.createElement('header');
+        const title = document.createElement('p');
+        header.setAttribute('class', 'header-container');
+        content.setAttribute('class', 'latest-content');
+        article.setAttribute('id', 'latest-article');
+        title.innerHTML = 'Latest News';
+        header.appendChild(title);
+        content.appendChild(header);
+    } else if (kind === 'opinion'){
+        content.setAttribute('class', 'opinion-content');
+        article.setAttribute('id', 'opinion-article');
     }
 
-    root.appendChild(mainContent);
+    displayArticles(cache[kind], article, kind);
+
+    
+    content.appendChild(article);
+    section.appendChild(content);
+    root.appendChild(section);
 }
+
 world.addEventListener('click', function(){
-    displaySection('world');
+    dynamicContent.innerHTML = '';
+    dynamicContent.style.flexDirection = 'column';
+    if (cache['world']){
+        displayArticles(cache['world'], dynamicContent, 'world')
+    }else{
+        displaySection('world');
+    }
 });
 business.addEventListener('click', function(){
-    displaySection('business');
+    dynamicContent.innerHTML = '';
+    dynamicContent.style.flexDirection = 'column';
+    if (cache['business']){
+        displayArticles(cache['business'], dynamicContent, 'world')
+    }else{
+        displaySection('business');
+    }
 });
 health.addEventListener('click', function(){
     displaySection('health');
@@ -184,5 +166,4 @@ science.addEventListener('click', function(){
 
 window.addEventListener('resize', function(){
     adjustArticles(cache['popular'], popStories, 'popular');
-    // adjustArticles(latestCache, latestNews, 'latest');
 })

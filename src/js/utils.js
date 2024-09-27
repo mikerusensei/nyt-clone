@@ -14,7 +14,7 @@ export function adjustArticles(articles, root, kind){
     const data = [
         {size: 425, articleNum: 3},
         {size: 768, articleNum: 5},
-        {size: 1024, articleNum: 8},
+        {size: 1024, articleNum: 5},
         {size: 1440, articleNume: 8},
     ]
 
@@ -79,6 +79,10 @@ export function adjustArticles(articles, root, kind){
 }
 
 export function displayArticles(articles, root, kind){
+    if (root.hasChildNodes()){
+        root.removeChild(root.firstElementChild);
+    }
+
     let loopLength = 0;
     let windowWidth = window.innerWidth;
 
@@ -111,7 +115,7 @@ export function displayArticles(articles, root, kind){
         loopLength = 10;
     }
     else{
-        loopLength = 3;
+        loopLength = 6;
     }
 
     for (let i = 0; i < loopLength; i++){
