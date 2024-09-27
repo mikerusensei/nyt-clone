@@ -2,7 +2,6 @@
   "name": "nyt-clone",
   "version": "1.0.0",
   "description": "A clone of New York Times",
-
   "scripts": {
     "build": "parcel build src/index.html && cp -r src/json dist/json",
     "test": "echo \"Error: no test specified\" && exit 1"

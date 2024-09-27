@@ -92,14 +92,14 @@ export function displayArticles(articles, root, kind){
         }else if (windowWidth <= 768){
             loopLength = 5;
         }else if (windowWidth <= 1024){
-            loopLength = 8;
+            loopLength = 5;
         }else if (windowWidth <= 1440){
             loopLength = 8;
         }else if (windowWidth <= 2000){
-            loopLength = 14;
+            loopLength = 12;
         }
         else{
-            loopLength = 14;
+            loopLength = 12;
         }
     }else if (kind === 'latest'){
         loopLength = 8;

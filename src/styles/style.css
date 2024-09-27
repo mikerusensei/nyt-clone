@@ -20,10 +20,10 @@ body {
     width: 100vw;
 }
 
-main{
+/* main{
     display: flex;
-    /* overflow-x: hidden; */
-}
+    /* overflow-x: hidden; 
+} */
 
 #side-content{
     display: none;

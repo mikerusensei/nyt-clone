@@ -1,4 +1,7 @@
 @media screen and (min-width: 426px){
+    main{
+        display: flex;
+    }
     .responsive{
         width: 100vw;
     }

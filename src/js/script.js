@@ -1,16 +1,15 @@
 import { adjustArticles, displayArticles } from "./utils";
 
 // Test Files
-const latestfile = "json/newswire.json";
-const popularfile = "json/most-pop.json";
-const opinionfile = "json/opinion.json";
+// const latestfile = "json/newswire.json";
+// const popularfile = "json/most-pop.json";
+// const opinionfile = "json/opinion.json";
 
 // API Test
 const key = process.env.PARCEL_NYT_API;
-// const latestfile = `https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=${key}`;
-// const popularfile = `https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=${key}`;
-// const foodfile = `https://api.nytimes.com/svc/topstories/v2/food.json?api-key=${key}`;
-// const opinionfile = `https://api.nytimes.com/svc/topstories/v2/opinion.json?api-key=${key}`;
+const latestfile = `https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=${key}`;
+const popularfile = `https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=${key}`;
+const opinionfile = `https://api.nytimes.com/svc/topstories/v2/opinion.json?api-key=${key}`;
 
 // Containers
 const popStories = document.getElementById('popular-article');
@@ -38,11 +37,14 @@ const cache = {};
 makeFetch();
 
 async function getData(file, root, kind) {
-    console.log(file)
-    const result = await fetch(file);
-    const data = await result.json();
-    updateData(data.results, root, kind);
-    cache[kind] = data.results;
+    try{
+        const result = await fetch(file);
+        const data = await result.json();
+        updateData(data.results, root, kind);
+        cache[kind] = data.results;
+    } catch{
+        displayErrorFetch(root);
+    }
 }
 
 // Read
@@ -50,16 +52,22 @@ async function makeFetch(){
     await fetchDelay(popularfile, popStories, 'popular');
     await fetchDelay(latestfile, latestNews, 'latest');
     await fetchDelay(opinionfile, opinionArticle, 'opinion');
-    // await fetchDelay(foodfile, foodStories, 'food');
+    // await getData(popularfile, popStories, 'popular');
+    // await getData(latestfile, latestNews, 'latest');
+    // await getData(opinionfile, opinionArticle, 'opinion');
     doneFetching = true;
 }
 
 async function fetchDelay(file, root, kind){
-    displayFetching(root);
-    await new Promise(function(resolve){
-        setTimeout(resolve, 12000);
-    });
-    await getData(file, root, kind);
+    try{
+        displayFetching(root);
+        await new Promise(function(resolve){
+            setTimeout(resolve, 12000);
+        });
+        await getData(file, root, kind);
+    }catch{
+        displayErrorFetch(root);
+    }
 }
 
 function displayFetching(root){
@@ -69,10 +77,23 @@ function displayFetching(root){
     root.appendChild(div);
 
 }
+
+function displayErrorFetch(root){
+    root.innerHTML = '';
+
+    const div = document.createElement('div');
+    div.innerHTML= 'Error fetching data please reload the page';
+
+    root.appendChild(div);
+}
+
 function displaySection(section){
     const file = `https://api.nytimes.com/svc/topstories/v2/${section}.json?api-key=${key}`;
     dynamicContent.innerHTML = '';
-    dynamicContent.style.flexDirection = 'column';
+    dynamicContent.style.flexDirection = 'row';
+    dynamicContent.style.flexWrap= 'wrap';
+    dynamicContent.style.justifyContent= 'center';
+
     fetchDelay(file, dynamicContent, section);
 }
 
@@ -86,66 +107,63 @@ logo.addEventListener('click', function(){
         window.alert('Not done fetching');
     }else{
         dynamicContent.innerHTML = '';
-        dynamicContent.style.flexDirection = null;
-        console.log('Tama');
-        createElements(dynamicContent, contentSection, 'main-content','popular');
-        //createElements(dynamicContent, contentSection, 'main-content','latest');
-        createElements(dynamicContent, contentSection, 'side-content', 'opinion');
+        dynamicContent.style = null;
+        createElements(dynamicContent, 'main-content','popular');
+        createElements(dynamicContent, 'main-content','latest');
+        createElements(dynamicContent, 'side-content', 'opinion');
     }
 })
 
-var contentSection = document.createElement('section');
+function createElements(root, sectionKind, kind) {
+    let existingSection;
 
-function createElements(root, section, sectionKind,kind){
-    const sectionIntialized = document.getElementById('main-content');
-    const container = document.getElementById(`${kind}-content`);
-
-    if (sectionIntialized && sectionKind === 'side-content'){
-        section = document.createElement('section');
-    }
-
-    if (sectionKind === 'main-content'){
-        section.id = 'main-content';
-    }else if (sectionKind === 'side-content'){
-        section.id = 'side-content'
+    if (sectionKind === 'main-content') {
+        existingSection = document.getElementById('main-content');
+        if (!existingSection) {
+            existingSection = document.createElement('section');
+            existingSection.id = 'main-content';
+            root.appendChild(existingSection);
+        }
+    } else {
+        existingSection = document.getElementById('side-content');
+        if (!existingSection) {
+            existingSection = document.createElement('section');
+            existingSection.id = 'side-content';
+            root.appendChild(existingSection);
+        }
     }
 
     const content = document.createElement('div');
     const article = document.createElement('main');
 
-    if (!container){
-        if (kind === 'popular'){
-            const header = document.createElement('header');
-            const title = document.createElement('p');
-            header.setAttribute('class', 'header-container');
-            content.setAttribute('class', 'popular-content');
-            article.setAttribute('id', 'popular-article');
-            title.innerHTML = 'Popular Articles';
-            header.appendChild(title);
-            content.appendChild(header);
-        } else if (kind === 'latest'){
-            const header = document.createElement('header');
-            const title = document.createElement('p');
-            header.setAttribute('class', 'header-container');
-            content.setAttribute('class', 'latest-content');
-            article.setAttribute('id', 'latest-article');
-            title.innerHTML = 'Latest News';
-            header.appendChild(title);
-            content.appendChild(header);
-        } else if (kind === 'opinion'){
-            content.setAttribute('class', 'opinion-content');
-            article.setAttribute('id', 'opinion-article');
-        }
-
-        displayArticles(cache[kind], article, kind);
-
-        
-        content.appendChild(article);
-        section.appendChild(content);
-        root.appendChild(section);
-    }else{
-        displayArticles(cache[kind], container, kind)
+    if (kind === 'popular') {
+        const header = document.createElement('header');
+        const title = document.createElement('p');
+        header.setAttribute('class', 'header-container');
+        content.setAttribute('class', 'popular-content');
+        article.setAttribute('id', 'popular-article');
+        title.innerHTML = 'Popular Articles';
+        header.appendChild(title);
+        content.appendChild(header);
+    } else if (kind === 'latest') {
+        const header = document.createElement('header');
+        const title = document.createElement('p');
+        header.setAttribute('class', 'header-container');
+        content.setAttribute('class', 'latest-content');
+        article.setAttribute('id', 'latest-article');
+        title.innerHTML = 'Latest News';
+        header.appendChild(title);
+        content.appendChild(header);
+    } else if (kind === 'opinion') {
+        content.setAttribute('class', 'opinion-content');
+        article.setAttribute('id', 'opinion-article');
     }
+
+    displayArticles(cache[kind], article, kind);
+    
+    content.appendChild(article);
+
+    existingSection.appendChild(content);
 }
 
 world.addEventListener('click', function(){
@@ -153,7 +171,10 @@ world.addEventListener('click', function(){
         window.alert('Not done fetching')
     }else{
         dynamicContent.innerHTML = '';
-        dynamicContent.style.flexDirection = 'column';
+        dynamicContent.style.flexDirection = 'row';
+        dynamicContent.style.flexWrap = 'wrap';
+        dynamicContent.style.justifyContent= 'center';
+
         if (cache['world']){
             displayArticles(cache['world'], dynamicContent, 'world')
         }else{
@@ -166,7 +187,10 @@ business.addEventListener('click', function(){
         window.alert('Not done fetching')
     }else{
         dynamicContent.innerHTML = '';
-        dynamicContent.style.flexDirection = 'column';
+        dynamicContent.style.flexDirection = 'row';
+        dynamicContent.style.flexWrap = 'wrap';
+        dynamicContent.style.justifyContent= 'center';
+
         if (cache['business']){
             displayArticles(cache['business'], dynamicContent, 'world')
         }else{
@@ -175,13 +199,52 @@ business.addEventListener('click', function(){
     }
 });
 health.addEventListener('click', function(){
-    displaySection('health');
+    if (!doneFetching){
+        window.alert('Not done fetching')
+    }else{
+        dynamicContent.innerHTML = '';
+        dynamicContent.style.flexDirection = 'row';
+        dynamicContent.style.flexWrap = 'wrap';
+        dynamicContent.style.justifyContent= 'center';
+
+        if (cache['health']){
+            displayArticles(cache['health'], dynamicContent, 'world')
+        }else{
+            displaySection('health');
+        }
+    }
 });
 sports.addEventListener('click', function(){
-    displaySection('sports');
+    if (!doneFetching){
+        window.alert('Not done fetching')
+    }else{
+        dynamicContent.innerHTML = '';
+        dynamicContent.style.flexDirection = 'row';
+        dynamicContent.style.flexWrap = 'wrap';
+        dynamicContent.style.justifyContent= 'center';
+
+        if (cache['sports']){
+            displayArticles(cache['sports'], dynamicContent, 'world')
+        }else{
+            displaySection('sports');
+        }
+    }
 });
 science.addEventListener('click', function(){
-    displaySection('science');
+    if (!doneFetching){
+        window.alert('Not done fetching')
+    }else{
+        dynamicContent.innerHTML = '';
+        dynamicContent.style.flexDirection = 'row';
+        dynamicContent.style.flexWrap = 'wrap';
+        dynamicContent.style.justifyContent= 'center';
+
+        if (cache['science']){
+            displayArticles(cache['science'], dynamicContent, 'world')
+        }else{
+            displaySection('science');
+        }
+    }
 });
 
 window.addEventListener('resize', function(){
