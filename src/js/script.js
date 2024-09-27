@@ -25,6 +25,7 @@ const business = document.getElementById('business');
 const health = document.getElementById('health');
 const sports = document.getElementById('sports');
 const science = document.getElementById('science');
+let doneFetching = false;
 
 // Cache Var
 // var popularCache;
@@ -50,6 +51,7 @@ async function makeFetch(){
     await fetchDelay(latestfile, latestNews, 'latest');
     await fetchDelay(opinionfile, opinionArticle, 'opinion');
     // await fetchDelay(foodfile, foodStories, 'food');
+    doneFetching = true;
 }
 
 async function fetchDelay(file, root, kind){
@@ -80,17 +82,23 @@ function updateData(articles, root, kind){
 
 // event listeners
 logo.addEventListener('click', function(){
-    dynamicContent.innerHTML = '';
-    dynamicContent.style.flexDirection = null;
-    createElements(dynamicContent, contentSection, 'main-content','popular');
-    createElements(dynamicContent, contentSection, 'main-content','latest');
-    createElements(dynamicContent, contentSection, 'side-content', 'opinion');
+    if (!doneFetching){
+        window.alert('Not done fetching');
+    }else{
+        dynamicContent.innerHTML = '';
+        dynamicContent.style.flexDirection = null;
+        console.log('Tama');
+        createElements(dynamicContent, contentSection, 'main-content','popular');
+        //createElements(dynamicContent, contentSection, 'main-content','latest');
+        createElements(dynamicContent, contentSection, 'side-content', 'opinion');
+    }
 })
 
 var contentSection = document.createElement('section');
 
 function createElements(root, section, sectionKind,kind){
     const sectionIntialized = document.getElementById('main-content');
+    const container = document.getElementById(`${kind}-content`);
 
     if (sectionIntialized && sectionKind === 'side-content'){
         section = document.createElement('section');
@@ -105,53 +113,65 @@ function createElements(root, section, sectionKind,kind){
     const content = document.createElement('div');
     const article = document.createElement('main');
 
-    if (kind === 'popular'){
-        const header = document.createElement('header');
-        const title = document.createElement('p');
-        header.setAttribute('class', 'header-container');
-        content.setAttribute('class', 'popular-content');
-        article.setAttribute('id', 'popular-article');
-        title.innerHTML = 'Popular Articles';
-        header.appendChild(title);
-        content.appendChild(header);
-    } else if (kind === 'latest'){
-        const header = document.createElement('header');
-        const title = document.createElement('p');
-        header.setAttribute('class', 'header-container');
-        content.setAttribute('class', 'latest-content');
-        article.setAttribute('id', 'latest-article');
-        title.innerHTML = 'Latest News';
-        header.appendChild(title);
-        content.appendChild(header);
-    } else if (kind === 'opinion'){
-        content.setAttribute('class', 'opinion-content');
-        article.setAttribute('id', 'opinion-article');
+    if (!container){
+        if (kind === 'popular'){
+            const header = document.createElement('header');
+            const title = document.createElement('p');
+            header.setAttribute('class', 'header-container');
+            content.setAttribute('class', 'popular-content');
+            article.setAttribute('id', 'popular-article');
+            title.innerHTML = 'Popular Articles';
+            header.appendChild(title);
+            content.appendChild(header);
+        } else if (kind === 'latest'){
+            const header = document.createElement('header');
+            const title = document.createElement('p');
+            header.setAttribute('class', 'header-container');
+            content.setAttribute('class', 'latest-content');
+            article.setAttribute('id', 'latest-article');
+            title.innerHTML = 'Latest News';
+            header.appendChild(title);
+            content.appendChild(header);
+        } else if (kind === 'opinion'){
+            content.setAttribute('class', 'opinion-content');
+            article.setAttribute('id', 'opinion-article');
+        }
+
+        displayArticles(cache[kind], article, kind);
+
+        
+        content.appendChild(article);
+        section.appendChild(content);
+        root.appendChild(section);
+    }else{
+        displayArticles(cache[kind], container, kind)
     }
-
-    displayArticles(cache[kind], article, kind);
-
-    
-    content.appendChild(article);
-    section.appendChild(content);
-    root.appendChild(section);
 }
 
 world.addEventListener('click', function(){
-    dynamicContent.innerHTML = '';
-    dynamicContent.style.flexDirection = 'column';
-    if (cache['world']){
-        displayArticles(cache['world'], dynamicContent, 'world')
+    if (!doneFetching){
+        window.alert('Not done fetching')
     }else{
-        displaySection('world');
+        dynamicContent.innerHTML = '';
+        dynamicContent.style.flexDirection = 'column';
+        if (cache['world']){
+            displayArticles(cache['world'], dynamicContent, 'world')
+        }else{
+            displaySection('world');
+        }
     }
 });
 business.addEventListener('click', function(){
-    dynamicContent.innerHTML = '';
-    dynamicContent.style.flexDirection = 'column';
-    if (cache['business']){
-        displayArticles(cache['business'], dynamicContent, 'world')
+    if (!doneFetching){
+        window.alert('Not done fetching')
     }else{
-        displaySection('business');
+        dynamicContent.innerHTML = '';
+        dynamicContent.style.flexDirection = 'column';
+        if (cache['business']){
+            displayArticles(cache['business'], dynamicContent, 'world')
+        }else{
+            displaySection('business');
+        }
     }
 });
 health.addEventListener('click', function(){
@@ -165,5 +185,6 @@ science.addEventListener('click', function(){
 });
 
 window.addEventListener('resize', function(){
-    adjustArticles(cache['popular'], popStories, 'popular');
+    const container = document.getElementById('popular-article')
+    adjustArticles(cache['popular'], container, 'popular');
 })
