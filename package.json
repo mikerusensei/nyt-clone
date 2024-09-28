@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A clone of New York Times",
   "scripts": {
-    "build": "parcel build --public-url https://mikerusensei.github.io/nyt-clone src/index.html",
+    "build": "parcel build --public-url https://mikerusensei.github.io/nyt-clone src/index.html && rm -rf docs && mv dist docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
