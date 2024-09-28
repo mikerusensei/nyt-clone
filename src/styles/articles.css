@@ -68,7 +68,7 @@
 
 #content-section > article{
     border-bottom: double var(--black);
-    width: 30vw;
+    /* width: 30vw; */
     display: flex;
     border-right: 1px solid var(--black);
     margin: 1rem;

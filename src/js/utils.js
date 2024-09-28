@@ -15,7 +15,7 @@ export function adjustArticles(articles, root, kind){
         {size: 425, articleNum: 3},
         {size: 768, articleNum: 5},
         {size: 1024, articleNum: 5},
-        {size: 1440, articleNume: 8},
+        {size: 1440, articleNume: 7},
     ]
 
     for (const key in data){
@@ -94,7 +94,7 @@ export function displayArticles(articles, root, kind){
         }else if (windowWidth <= 1024){
             loopLength = 5;
         }else if (windowWidth <= 1440){
-            loopLength = 8;
+            loopLength = 7;
         }else if (windowWidth <= 2000){
             loopLength = 12;
         }

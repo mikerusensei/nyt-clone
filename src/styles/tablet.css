@@ -6,6 +6,10 @@
         width: 100vw;
     }
     
+    #content-section > article{
+        width: 30vw;
+
+    }
     #latest-article article{
         width: 21rem;
     }
