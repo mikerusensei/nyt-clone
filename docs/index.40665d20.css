@@ -1,0 +1,2 @@
+*{margin:0;padding:0}:root{--black:#1b1b1b;--white:#f5f5f5}body{background-color:var(--white);font-size:16px}main{display:flex}#main-content{width:100vw}#side-content{border-left:1px solid var(--black);display:none}.header-container{background-color:var(--black)}.header-container p{color:var(--white);font-family:Protest Guerrilla,sans-serif;font-size:1.5rem}.popular-content{min-height:60vh;margin-bottom:20px}.latest-content{min-height:45vh}#opinion-article{min-height:70vh}
+/*# sourceMappingURL=index.40665d20.css.map */
